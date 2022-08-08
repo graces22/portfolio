@@ -1,6 +1,5 @@
 import Head from "next/head";
 import React from "react";
-import Link from 'next/link';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
 import {ArrowRightIcon} from "@heroicons/react/outline";

@@ -1,5 +1,4 @@
 import React from "react";
-import {MailIcon} from "@heroicons/react/outline";
 
 function Footer() {
     return (
@@ -27,10 +26,10 @@ function Footer() {
                    <div className="w-full border-t border-black border-dotted"></div>
                 </div>
                    <div className="space-between flex my-6 md:mx-8 mx-5">
-                      <p1 className="font-regular text-sm md:text-base text-left w-full">
+                      <p1 className="font-regular text-sm md:text-base text-left w-1/2">
                         Designed and built by Grace Song.
                       </p1>
-                      <p1 className="font-regular text-sm md:text-base text-right w-1/4">
+                      <p1 className="font-regular text-sm md:text-base text-right w-1/2">
                         © 2022
                       </p1>
                   </div>

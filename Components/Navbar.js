@@ -11,7 +11,7 @@ export default function Navbar() {
                 <>
                    <div className="min-w-7xl mx-auto px-2 sm:px-3 lg:pl-7 lg:pr-5 active:bg-lime-50">
                        <div className="relative flex items-center justify-between h-12 md:mx-0 mx-0">
-                           <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
+                           <div className="absolute inset-y-0 right-0 flex items-center display md:hidden">
                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black">
                                    
                                    {open ? (
