@@ -84,7 +84,7 @@ export default function saloneverywhere() {
            <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
          </div>
          <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 md:w-5/6 lg:w-4/6">
-           How might we improve SalonEverywhere&apos;s design system to effectively showcase portfolios, expertise and personality unique to every beauty pro?<br/><br/>How might we enforce a seamless navigation between associated pro and business profiles?<br/><br/>How might we help drive engagement through professional profiles, in a more interactive and effective way?
+           How might we improve SalonEverywhere's design system to effectively showcase portfolios, expertise and personality unique to every beauty pro?<br/><br/>How might we enforce a seamless navigation between associated pro and business profiles?<br/><br/>How might we help drive engagement through professional profiles, in a more interactive and effective way?
          </p1>
          </div>
              
@@ -138,7 +138,7 @@ export default function saloneverywhere() {
              Developing and optimizing an end-to-end experience from a user perspective.
            </p1>
            <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-             Like most other platforms that embody user profiles, SalonEverywhere follows a familiar architecture encompassing both a user edit view and a public view. While designing for simplicity and clarity, some areas have been accommodated to meet developers&apos; requests, having an effect on the design decisions made.<br/><br/>The edit modals are designed for users to easily edit the information presented on their profiles, all while adhering to defined design patterns and components. We focused on creating a frictionless experience through consistency in clear headings, subheadings and concise copy to efficiently guide a user through the process.<br/><br/>Due to the scope of the project, not all screens have been presented, however a business profile along with the respective edit modals would follow a similar structure as seen here.
+             Like most other platforms that embody user profiles, SalonEverywhere follows a familiar architecture encompassing both a user edit view and a public view. While designing for simplicity and clarity, some areas have been accommodated to meet developers' requests, having an effect on the design decisions made.<br/><br/>The edit modals are designed for users to easily edit the information presented on their profiles, all while adhering to defined design patterns and components. We focused on creating a frictionless experience through consistency in clear headings, subheadings and concise copy to efficiently guide a user through the process.<br/><br/>Due to the scope of the project, not all screens have been presented, however a business profile along with the respective edit modals would follow a similar structure as seen here.
            </p1>
            <div className="my-5 mb-10 md:mb-20">
             <Image src={Semodals} alt="modals" layout="responsive" objectFit="cover"/>

@@ -48,7 +48,7 @@ export default function beautyfiles() {
            While beauty pros do everything in their power to engage clients and grow their business, they have few ways to currently do so using SalonEverywhere’s digital platform.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           The underlying problem concerns SalonEverywhere facing a complex challenge as a startup. What was first envisioned to be an online network that would initially drive monetization, became challenging without a valuable reason for early users to join. Although there is value in a professional profile on SalonEverywhere, we discovered early in the process that this falls into the concept of &quot;set it and forget it,&quot; resulting in low engagement as users rarely used the platform once their profile was set.
+           The underlying problem concerns SalonEverywhere facing a complex challenge as a startup. What was first envisioned to be an online network that would initially drive monetization, became challenging without a valuable reason for early users to join. Although there is value in a professional profile on SalonEverywhere, we discovered early in the process that this falls into the concept of “set it and forget it,” resulting in low engagement as users rarely used the platform once their profile was set.
          </p1>
        </div>
       </div>
@@ -67,7 +67,7 @@ export default function beautyfiles() {
            The BeautyFiles app provides a new digital system, empowering beauty pros to better engage clients on a more personal level.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           An extension to SalonEverywhere—designed to be a simple yet powerful tool in which beauty pros can create and share follow-up content with clients. Including features like product recommendations and secure image permissions, BeautyFiles is a new approach in providing a digital space for pros to fulfill essential business goals in ways that were not feasible. It is also intended to add great value for potential clients by enhancing the post-service experience in several ways.<br/><br/>The project was assigned with a clear purpose that it would be a mobile app due to the fact that most pros spend their days at work—only having access to their smartphones. In order to engage users on a daily basis, the idea of being able to &quot;own the phone&quot; became relevant in defining the scope of this project.
+           An extension to SalonEverywhere—designed to be a simple yet powerful tool in which beauty pros can create and share follow-up content with clients. Including features like product recommendations and secure image permissions, BeautyFiles is a new approach in providing a digital space for pros to fulfill essential business goals in ways that were not feasible. It is also intended to add great value for potential clients by enhancing the post-service experience in several ways.<br/><br/>The project was assigned with a clear purpose that it would be a mobile app due to the fact that most pros spend their days at work—only having access to their smartphones. In order to engage users on a daily basis, the idea of being able to “own the phone” became relevant in defining the scope of this project.
          </p1>
          <div className="my-5">
           <Image src={Bfintro} alt="mockup" layout="responsive" objectFit="cover"/>
@@ -102,7 +102,7 @@ export default function beautyfiles() {
            <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
          </div>
          <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 md:w-5/6 lg:w-4/6">
-          "I do want product recommendations, but I feel pressured to buy on the spot without doing my research on the product, and the time to decide if it’s worth the financial investment.”<br/><br/>“It’s hard to keep track of physical coupons/vouchers that I receive, along with remembering the exact hair color formula that my stylist often writes for me on paper.”<br/><br/>“Sometimes I feel insecure about seeing, in my opinion, unpleasant images of my face being posted by the salon. I thought they were only asking to take photos for their reference, rather than for posting on social media.”
+           “I do want product recommendations, but I feel pressured to buy on the spot without doing my research on the product, and the time to decide if it’s worth the financial investment.”<br/><br/>“It’s hard to keep track of physical coupons/vouchers that I receive, along with remembering the exact hair color formula that my stylist often writes for me on paper.”<br/><br/>“Sometimes I feel insecure about seeing, in my opinion, unpleasant images of my face being posted by the salon. I thought they were only asking to take photos for their reference, rather than for posting on social media.”
          </p1>
          </div>
          
@@ -110,7 +110,7 @@ export default function beautyfiles() {
            From further research, we better understood the issues that beauty pros and clients faced, and how the product could serve as a tangible solution.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Knowing that the product would serve both beauty pros and clients, user personas are established for guidance and a practical sense of who we&apos;re designing for. To better understand how we want the product to achieve user needs, some questions were:
+           Knowing that the product would serve both beauty pros and clients, user personas are established for guidance and a practical sense of who we're designing for. To better understand how we want the product to achieve user needs, some questions were:
          </p1>
          <div className="flex flex-row mt-5 mb-20 ">
          <div className="pr-4 lg:pr-6">
@@ -193,7 +193,7 @@ export default function beautyfiles() {
           <Image src={Bfhifipro} alt="hifi-pro" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As for the client-facing app, it consists of all the same features of a pro&apos;s view, simply without the ability to create a file. Moving forward, the bottom navigation for both the pro and client-facing app are unified upon developers&apos; request, in which the primary action is now represented as a floating action button. This allows the initial bottom nav to remain the same in any view, regardless.
+           As for the client-facing app, it consists of all the same features of a pro's view, simply without the ability to create a file. Moving forward, the bottom navigation for both the pro and client-facing app are unified upon developers' request, in which the primary action is now represented as a floating action button. This allows the initial bottom nav to remain the same in any view, regardless.
          </p1>
          <div>
           <Image src={Bfhificlient} alt="hifi-client" layout="responsive" objectFit="cover"/>
