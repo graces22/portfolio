@@ -11,9 +11,9 @@ export default function Navbar() {
                 <>
                    <div className="min-w-7xl mx-auto px-2 sm:px-3 lg:pl-7 lg:pr-5 active:bg-lime-50">
                        <div className="relative flex items-center justify-between h-12 md:mx-0 mx-0">
-                           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                           <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black">
-                                   <span className="sr-only">Open Main Menu</span>
+                                   
                                    {open ? (
                                      <XIcon className="block h-6 w-6" aria-hidden="true" />
                                    ) : (
@@ -33,7 +33,7 @@ export default function Navbar() {
                                </li>
                              </ul>
                             </div>
-                            <div className="hidden sm:block sm:ml-auto md:ml-auto">
+                            <div className="hidden sm:block sm:ml-auto">
                                <div className="flex space-x-4">
                                <ul>   
                                <li>
@@ -51,7 +51,7 @@ export default function Navbar() {
                                </ul> 
                                <ul>
                                <li>
-                                     <a href="https://drive.google.com/file/d/169iDF_zXzqZ84h4SLe15ZEvSK23O4DO4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cursor-pointer px-2 py-3 text-base font-regular">Resume</a>
+                                  <a href="https://drive.google.com/file/d/169iDF_zXzqZ84h4SLe15ZEvSK23O4DO4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cursor-pointer px-2 py-3 text-base font-regular">Resume</a>
                                </li>
                                </ul> 
                                </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
                        </div>
 
                    </div>
-                   <Disclosure.Panel className="sm:hidden bg-lime-50">
+                   <Disclosure.Panel className="md:hidden bg-lime-50">
                      <div className="mx-2 py-8 space-y-1">
                                      <Disclosure.Button>
                                      <ul>   
@@ -80,7 +80,7 @@ export default function Navbar() {
                                </ul>
                                <ul>
                                <li>
-                                  <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="cursor-pointer block ml-3 py-6 text-5xl text-left font-regular">Resume</a>
+                                  <a href="https://drive.google.com/file/d/169iDF_zXzqZ84h4SLe15ZEvSK23O4DO4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="cursor-pointer block ml-3 py-6 text-5xl text-left font-regular">Resume</a>
                                </li>
                                </ul>  
                                   </Disclosure.Button>

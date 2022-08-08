@@ -14,8 +14,8 @@ const Projectheader = (props) => {
              <h1 className="font-normal text-[56px] md:text-8xl lg:text-9xl text-left mb-5">
                   {data.title}
              </h1>
-               <div class="pt-0 md:pt-4">
-                  <div class="w-full border-t border-black border-dotted"></div>
+               <div className="pt-0 md:pt-4">
+                  <div className="w-full border-t border-black border-dotted"></div>
                </div>
                <div className="w-full flex flex-col md:flex-row justify-left md:gap-40 lg:gap-60 items-start">
                <div className='py-6'>
@@ -43,8 +43,8 @@ const Projectheader = (props) => {
                  </ul>
                </div>
               </div>
-               <div class="pb-4">
-                 <div class="w-full border-t border-black border-dotted"></div>
+               <div className="pb-4">
+                 <div className="w-full border-t border-black border-dotted"></div>
                </div>
                  <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
                     00 — INTRODUCTION
