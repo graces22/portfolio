@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 function Intro() {
+
   return (
     <div>
       <div className="flex justify-between text-center mx-0 md:mx-2 lg:mx-3 pt-28">

@@ -47,7 +47,7 @@ export default function tapqr() {
            Embedding external links through social posts is essential to users today, however the current ways of doing so are limiting, and existing Web2 companies tend to create an unethical, long-term rent extraction form of lock-in.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Instagram is a widespread example where the platform is bereft of clickable links, resulting in the growth of companies that strive to provide solutions such as Bitly and Linktree to name a few. Although these companies have been successful in providing their respective services, a fundamental problem remains: (in the context of Instagram's platform) a social post is simply not able to directly open a link to an external website. <br/><br/> With existing Web2 companies that provide QR code services, users face a deeper problem concerning central authority, in which it comes with inevitable consequences and risks. To illustrate this form of user lock-in, imagine an influencer using a QR code service on a monthly fee, with social media content that contains these QR codes, accumulating traffic even a year later. Within this context, the user would be reluctant to cancel this service, and the continual operation of their QR codes would be entirely dependent on agreeing with any changes made by said service provider.
+           Instagram is a widespread example where the platform is bereft of clickable links, resulting in the growth of companies that strive to provide solutions such as Bitly and Linktree to name a few. Although these companies have been successful in providing their respective services, a fundamental problem remains: In the context of Instagram, a social post is simply not able to directly open a link to an external website. <br/><br/> With existing Web2 companies that provide QR code services, users face a deeper problem concerning central authority, in which it comes with inevitable consequences and risks. To illustrate this form of user lock-in, imagine an influencer using a QR code service on a monthly fee, with social media content that contains these QR codes, accumulating traffic even a year later. Within this context, the user would be reluctant to cancel this service, and the continual operation of their QR codes would be entirely dependent on agreeing with any changes made by said service provider.
          </p1>
        </div>
       </div>
@@ -90,8 +90,8 @@ export default function tapqr() {
            As a sole designer on the team (and being completely new to blockchain, crypto and Web3), learning more about this growing ecosystem was essential even before diving into ideation for design. Through relative research and experiencing Solana first-hand, it was truly fascinating in discovering what the technology holds for futures of the Internet.<br/><br/>During what felt like going down a rabbit hole, an amazing article was able to interrupt and enlighten a hefty thought process. In addition, analyzing current dApps was crucial, as we wanted to identify what users may deem complicated, and what was working well in terms of an overall experience.<br/><br/>Upon gaining a better understanding, gathering some HMWs allowed us to ideate on how we want the product to best serve our users:
          </p1>
          <div className="flex flex-row mt-5 mb-20 ">
-         <div class="pr-4 lg:pr-6">
-           <div class="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
+         <div className="pr-4 lg:pr-6">
+           <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
          </div>
          <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 md:w-5/6 lg:w-4/6">
            How might we design a product that is familiar enough to engage social media users in valuing the concept of stamping their content with unique QR codes?<br/><br/>How might we build an experience that is easy to adapt and informative enough, yet not overly complex that might bore or potentially scare users who are new to concepts of blockchain technology?<br/><br/>How might we improve the overall experience for long-term users, while creating a sense of motivation, confidence and belonging?
@@ -174,7 +174,7 @@ export default function tapqr() {
           <Image src={Tqrdesktoponboard} alt="desktop-onboard" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As much as we're aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience. While a landing page is able to inform and engage new and existing users, getting started is made to be as effortless as connecting to a Phantom wallet.
+           As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience. While a landing page is able to inform and engage new and existing users, getting started is made to be as effortless as connecting to a Phantom wallet.
          </p1>
          <div className="my-5">
           <Image src={Tqrdesktopcreate} alt="desktop-create" layout="responsive" objectFit="cover"/>
