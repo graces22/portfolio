@@ -23,8 +23,8 @@ export default function Navbar() {
                                </Disclosure.Button>
 
                            </div>
-                           <div className="flex-1 flex items-center justify-start ml-3 lg:ml-1 sm:items-stretch">
-                            <div className="flex-shrink-0 flex items-center">
+                           <div className="flex-1 flex items-center justify-between ml-3 lg:ml-1 sm:items-stretch">
+                            <div className="flex-shrink-0 flex items-center justify-start">
                              <ul>
                                <li>
                                   <Link href="/">
