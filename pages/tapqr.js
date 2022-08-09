@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Link from 'next/link';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
 import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
-import { useState, useRef } from 'react';
 import Image from "next/image";
+import Tqrhero from "../public/images/One.png";
 import Tqrresearch1 from "../public/images/tqr-research1.png";
 import Tqrresearch2 from "../public/images/tqr-research2.png";
 import Tqrideation from "../public/images/tqr-ideation.png";
@@ -38,8 +37,11 @@ export default function tapqr() {
       <Navbar />
      <Projectheader data={Projects.tapqr}>
      </Projectheader>
-     <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 md:mt-20">
+     <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-5 md:mt-10">
        <div className="flex flex-col md:mx-3 mx-5 mt-0">
+         <div className="mb-20">
+          <Image src={Tqrhero} alt="solution" layout="responsive" objectFit="cover"/>
+         </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
          </p1>
@@ -126,7 +128,7 @@ export default function tapqr() {
           <Image src={Tqrflow1} alt="flow-one" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           While the onboarding flow focuses on simplicity and ease to get as many users on and going, the key flows for creating, editing and downloading a TapQR relies on familiarity, in which we aimed to minimize the learning curve in using this product. A step-by-step process that follows the commonalities of photo editors as well as QR code generators helped visualize key screens and an overall intuitive experience.<br/><br/>A significant task to overcome in this flow would be the process of confirming the transaction through their Phantom wallet. To minimize friction, it is left as a last task for completion, and has been treated in a familiar method of payment seen in ecommerce today, in which it is informative enough yet not overwhelming.
+           While the onboarding flow focuses on simplicity and ease to get as many users on and going, the key flows for creating, editing and downloading a TapQR relies on familiarity, in which we aimed to minimize the learning curve in using this product. A step-by-step process that follows the commonalities of photo editors as well as QR code generators helped visualize key screens and an overall intuitive experience.<br/><br/>A significant task to overcome in this flow would be the process of confirming the transaction through their Phantom wallet. To minimize friction, it is left as a last task for completion, and has been treated in a familiar method of payment seen in ecommerce today, in which it is informative enough yet not overwhelming.
          </p1>
          <div className="mt-5 mb-20">
           <Image src={Tqrflow2} alt="flow-two" layout="responsive" objectFit="cover"/>

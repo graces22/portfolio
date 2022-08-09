@@ -23,7 +23,7 @@ export default function Navbar() {
                                </Disclosure.Button>
 
                            </div>
-                           <div className="flex-1 flex items-center justify-left ml-3 lg:ml-1 sm:items-stretch sm:justify-start">
+                           <div className="flex-1 flex items-center justify-start ml-3 lg:ml-1 sm:items-stretch">
                             <div className="flex-shrink-0 flex items-center">
                              <ul>
                                <li>
@@ -33,7 +33,7 @@ export default function Navbar() {
                                </li>
                              </ul>
                             </div>
-                            <div className="hidden sm:block sm:ml-auto">
+                            <div className="hidden sm:block sm:ml-auto justify-end">
                                <div className="flex space-x-4">
                                <ul>   
                                <li>

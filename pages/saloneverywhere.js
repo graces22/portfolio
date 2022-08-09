@@ -1,11 +1,10 @@
 import Head from "next/head";
-import Link from 'next/link';
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/footer";
 import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
-import { useState, useRef } from 'react';
 import Image from "next/image";
+import Sehero from "../public/images/Three.png";
 import Bizheader from "../public/images/Biz.png";
 import Proheader from "../public/images/Pro.png";
 import Sesketches from "../public/images/se-sketches.png";
@@ -31,8 +30,11 @@ export default function saloneverywhere() {
       <Navbar />
      <Projectheader data={Projects.saloneverywhere}>
      </Projectheader>
-     <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 md:mt-20">
+     <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-5 md:mt-10">
        <div className="flex flex-col md:ml-3 mx-5 mt-0">
+         <div className="mb-20">
+          <Image src={Sehero} alt="solution" layout="responsive" objectFit="cover"/>
+         </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
          </p1>
