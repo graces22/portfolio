@@ -6,8 +6,8 @@ function Projectcards() {
   return (
       <Element id="Projects" name="Projects">
            <div className="flex-col justify-start text-center mx-5 md:mx-6 lg:mx-8 py-44 space-y-40">
-                <div className="md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
-                <div className="w-full md:w-1/2 h-screen relative px-10 shrink-0">
+                <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
+                <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/tapqr">
                     <Image src='/images/One.png' alt="one" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
@@ -35,8 +35,8 @@ function Projectcards() {
                     </div>
                 </div>
                 </div>
-                <div className="md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
-                <div className="w-full md:w-1/2 h-screen relative px-10 shrink-0">
+                <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
+                <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/beautyfiles">
                     <Image src='/images/Two.png' alt="two" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
@@ -64,8 +64,8 @@ function Projectcards() {
                     </div>
                 </div>
                 </div>
-                <div className="md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
-                <div className="w-full md:w-1/2 h-screen relative px-10 shrink-0">
+                <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
+                <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/saloneverywhere">
                     <Image src='/images/Three.png' alt="three" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
