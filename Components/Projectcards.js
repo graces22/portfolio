@@ -1,6 +1,7 @@
 import {Element} from "react-scroll";
 import Image from "next/image";
 import Link from "next/link";
+import Tqrherocard from "../public/images/card-one.png";
 import Tqrhero from "../public/images/One.png";
 import Bfhero from "../public/images/Two.png";
 import Sehero from "../public/images/Three.png";
@@ -10,24 +11,30 @@ function Projectcards() {
       <Element id="Projects" name="Projects">
            <div className="flex-col justify-start text-center mx-5 md:mx-6 lg:mx-8 py-44 space-y-40">
 
-           <div className="flex-col justify-start space-y-5">
-                <div>
-                <a href="/tapqr"><Image src={Tqrhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
-                </div>
-                <div className="flex flex-col w-full"> 
-                    <a href="/tapqr" className="font-normal text-left text-4xl lg:text-5xl cursor-pointer">TapQR</a>
+           <div className="flex-col md:flex md:flex-row justify-start">
+                 <div className="w-full md:w-1/2">
+                  <a href="/tapqr"><Image src={Tqrherocard} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
+                 </div>
+
+                 <div className="flex flex-col w-full md:w-1/2 md:ml-6 lg:ml-8 justify-between"> 
+                   
+                   <div className="mt-5 md:mt-0">
+                      <a href="/tapqr"><p className="font-normal text-left text-4xl lg:text-5xl cursor-pointer">TapQR</p></a>
                     <div className="py-5">
                       <div className="w-full border-t border-black border-dotted"></div>
                     </div>
-                 <p className="flex mt-0 text-left text-xl lg:text-2xl break-normal text-zinc-400">Designing a seamless experience to leverage QR codes—built on the Solana blockchain.</p>
-                  <div className="mt-10 text-left">
-                   <p className="font-['Maison_Neue'] text-xs md:text-sm">DESKTOP WEB · MOBILE APP · UI/UX CASE STUDY</p>
-                  </div>
-                  <div className="pt-4">
+                    <p className="flex mt-0 text-left text-xl lg:text-2xl break-normal text-zinc-400">Designing a seamless experience to leverage QR codes—built on the Solana blockchain.</p>
+                   </div>
+
+                  <div className="mt-14 md:mt-0">
+                   <p className="font-['Maison_Neue'] text-xs md:text-sm text-left">DESKTOP WEB · MOBILE APP · UI/UX CASE STUDY</p>
+                     <div className="pt-4">
                       <div className="w-full border-t border-black border-dotted"></div>
-                    </div>
+                     </div>
+                  </div>
+
                 </div>
-                </div>
+            </div>
 
                 <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
                 <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
