@@ -10,23 +10,12 @@ function Projectcards() {
       <Element id="Projects" name="Projects">
            <div className="flex-col justify-start text-center mx-5 md:mx-6 lg:mx-8 py-44 space-y-40">
 
-           <div className="flex-col justify-start md:space-y-0 space-y-5">
-                <div className="w-full h-80 md:h-[34rem] relative px-10 mb-5 shrink-0">
-                   <Link href="/tapqr">
-                    <Image src={Tqrhero} alt="hero" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
-                   </Link>
-                </div> 
+           <div className="flex-col justify-start space-y-5">
+                <div>
+                <a href="/tapqr"><Image src={Tqrhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
+                </div>
                 <div className="flex flex-col w-full"> 
-                 <div className="flex flex-row justify-between">    
-                 <ul>   
-                  <li className="font-normal text-left text-4xl lg:text-5xl">
-                  <Link href="/tapqr">
-                    <a>TapQR</a>
-                  </Link>
-                  </li>
-                 </ul>
-                 <p className="font-normal text-right text-4xl lg:text-5xl">01</p>
-                 </div>
+                    <a href="/tapqr" className="font-normal text-left text-4xl lg:text-5xl cursor-pointer">TapQR</a>
                     <div className="py-5">
                       <div className="w-full border-t border-black border-dotted"></div>
                     </div>
@@ -43,7 +32,7 @@ function Projectcards() {
                 <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
                 <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/tapqr">
-                    <Image src={Tqrhero} alt="hero" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
+                    <Image src={Tqrhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
                 </div> 
                 <div className="flex flex-col md:ml-6 lg:ml-8 w-full md:w-1/2"> 
@@ -72,7 +61,7 @@ function Projectcards() {
                 <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
                 <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/beautyfiles">
-                    <Image src={Bfhero} alt="hero" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
+                    <Image src={Bfhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
                 </div>
                 <div className="flex flex-col md:ml-6 lg:ml-8 w-full md:w-1/2"> 
@@ -101,7 +90,7 @@ function Projectcards() {
                 <div className="h-full md:h-96 md:flex flex-col md:flex-row justify-start md:space-y-0 space-y-5">
                 <div className="w-full md:w-1/2 h-80 md:h-full relative px-10 shrink-0">
                    <Link href="/saloneverywhere">
-                    <Image src={Sehero} alt="hero" layout="fill" objectFit="cover" className="p-2 cursor-pointer"/>
+                    <Image src={Sehero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/>
                    </Link>
                 </div>
                 <div className="flex flex-col md:ml-6 lg:ml-8 w-full md:w-1/2"> 
