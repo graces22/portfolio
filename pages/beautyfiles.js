@@ -4,7 +4,7 @@ import Footer from "../Components/footer";
 import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
 import Image from "next/image";
-import Bfhero from "../public/images/Two.png";
+import Bfhero from "../public/images/Two.jpeg";
 import Bfintro from "../public/images/bf-intro.jpg";
 import Bfresearch from "../public/images/bf-research.jpg";
 import Propersona from "../public/images/bf-propersona.png";

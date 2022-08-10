@@ -4,11 +4,11 @@ function Footer() {
     return (
       <div>
            <div className="flex flex-col mt-24 lg:mt-40 w-100">
-                <div className="py-5 md:py-10 mb-1 lg:mb-2 md:mx-8 mx-5">
+                <div className="py-5 md:py-10 mb-1 lg:mb-2 mx-5 md:mx-6 lg:mx-8">
                    <div className="w-full border-t border-black border-dotted"></div>
                 </div>
 
-                <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 mb-4 md:mx-8 mx-5">I'd love to connect, please reach me at:</p1>
+                <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 mb-4 mx-5 md:mx-6 lg:mx-8">I'd love to connect, please reach me at:</p1>
 
                 <div className="overflow-hidden h-24 md:h-28 lg:h-40 relative w-screen inline-block">
                 <div className="animate-marquee hover:pause inline-block whitespace-nowrap absolute">
@@ -22,10 +22,10 @@ function Footer() {
                 </div>
                 </div>
 
-                <div className="pt-5 md:pt-10 md:mx-8 mx-5">
+                <div className="pt-5 md:pt-10 mx-5 md:mx-6 lg:mx-8">
                    <div className="w-full border-t border-black border-dotted"></div>
                 </div>
-                   <div className="space-between flex my-6 md:mx-8 mx-5">
+                   <div className="space-between flex my-6 mx-5 md:mx-6 lg:mx-8">
                       <p1 className="font-regular text-sm md:text-base text-left w-1/2">
                         Designed and built by Grace Song.
                       </p1>

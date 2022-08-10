@@ -4,7 +4,7 @@ import Footer from "../Components/footer";
 import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
 import Image from "next/image";
-import Sehero from "../public/images/Three.png";
+import Sehero from "../public/images/Three.jpeg";
 import Bizheader from "../public/images/Biz.png";
 import Proheader from "../public/images/Pro.png";
 import Sesketches from "../public/images/se-sketches.png";
