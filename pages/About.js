@@ -114,7 +114,7 @@ export default function About() {
                     grown to have awful handwriting · survives on iced coffee <span className="text-zinc-400">even in the cold</span> · enjoys catching sunsets · appreciates typography · finds pleasure in baking <span className="text-zinc-400">blueberry scones</span> · loves anything matcha · codependent on furry friend · keen on self-help books <span className="text-zinc-400">thanks to Mark Manson</span>
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left mt-10 mb-20 md:w-5/6 lg:w-4/6 mt-20">
-                    Thanks for making it this far!
+                    Coming to a close, thank you for making it this far!
                  </p1>
 
          </div>
