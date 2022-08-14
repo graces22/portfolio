@@ -109,7 +109,7 @@ export default function beautyfiles() {
          </div>
          
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           From further research, we better understood the issues that beauty pros and clients faced, and how the product could serve as a tangible solution.
+           From further research, we better understood the issues that pros and clients faced, and how the product could serve as a tangible solution.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            Knowing that the product would serve both beauty pros and clients, user personas are established for guidance and a practical sense of who we're designing for. To better understand how we want the product to achieve user needs, some questions were:
@@ -189,7 +189,7 @@ export default function beautyfiles() {
            To test usability, hi-fi prototypes are presented, iterating upon critical feedback.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Through testing with an existing hair salon, we discovered that stylists took longer than expected to complete the flow of creating a file. We then realized that keeping all sections open for the user was more effective than the accordion, to quickly scan the entire file with less taps to navigate between sections. In addition, the ability to preview a file before sending was favourable, along with reducing the need to type in text fields.<br/><br/>Accommodating this with simple multi-select options was an apparent solution, as the content provided in the app is powered by what users have configured on their SalonEverywhere profiles. The seamless integration allows users to easily select from their skills, services, products and relevant links, rather than having to manually input text.
+           Through testing with an existing hair salon, we discovered that stylists took longer than expected to complete the flow of creating a file. We soon realized that keeping all sections open for the user was more effective than the accordion, to quickly scan the entire file with less taps to navigate between sections. In addition, the ability to preview a file before sending was favourable, along with reducing the need to type in text fields.<br/><br/>Accommodating this with simple multi-select options was an apparent solution, as the content provided in the app is powered by what users have configured on their SalonEverywhere profiles. The seamless integration allows users to easily select from their skills, services, products and relevant links, rather than having to manually input text.
          </p1>
          <div>
           <Image src={Bfhifipro} alt="hifi-pro" layout="responsive" objectFit="cover"/>
@@ -277,10 +277,10 @@ export default function beautyfiles() {
            10 / REFLECTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           With great feedback, there are endless opportunities for improvement, in which it can be more approachable, adoptable and valued.
+           With great feedback, there are always endless opportunities for improvement, which in our case can be more approachable and adoptable.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           In retrospect, there were many aspects of the product that we had initially envisioned, however was not implemented due to focussing on core functionality in building MVP. It was critical to see how our initial users reacted to the product early on, in which it would determine the next steps for further development.<br/><br/>We quickly discovered that the product had great potential to be valued in the market, however was a “very new concept” that would take time and effort to be adopted by beauty pros today. Another obstacle could be that clients may not be willing to download an entirely new app regardless, in which they would need a greater purpose.<br/><br/>In all, this was an incredible project to take part in, especially in terms of designing a new product that had the potential to be anything and everything we imagined.
+           In retrospect, there were many aspects of the product that we had initially envisioned, however was not implemented due to focussing on core functionality in building MVP. It was critical to see how our initial users reacted to the product early on, in which it would determine the next steps for further development.<br/><br/>We quickly discovered that the product had great potential to be valued in the market, however was a “very new concept” that would take time and effort to be adopted by beauty pros today. Another obstacle could be that clients may not be willing to download an entirely new app regardless, in which they would need a greater purpose.<br/><br/>In all, this was an incredible project to take part in, especially in terms of designing a new product that had the potential to solve major challenges that pros faced today, along with tackling a larger business problem within SalonEverywhere.
          </p1>
        </div>
       </div>

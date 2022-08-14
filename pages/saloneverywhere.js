@@ -4,7 +4,7 @@ import Footer from "../Components/footer";
 import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
 import Image from "next/image";
-import Sehero from "../public/images/Three.jpeg";
+import Sehero from "../public/images/Three.png";
 import Bizheader from "../public/images/Biz.png";
 import Proheader from "../public/images/Pro.png";
 import Sesketches from "../public/images/se-sketches.png";
@@ -76,7 +76,7 @@ export default function saloneverywhere() {
            03 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Exploring the current elements and potential features of a pro and business profile was a critical step in beginning the design process.
+           Exploring the potential features of a pro and business profile was a critical step in beginning the design process.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            An underlying concept behind SalonEverywhere is to provide a seamless integration between businesses and their pros, in which all the pros associated with said business can be discovered and presented within a single business profile, and vice versa. A site-map was sketched out to clearly visualize main pages of the platform, and how they could be integrated to create a seamless flow.<br/><br/>We explored various features, elements and design patterns to create a more valuable, user-friendly experience—optimizing the initial design system all while maintaining existing brand guidelines. Some ideation questions were:
@@ -117,7 +117,7 @@ export default function saloneverywhere() {
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            Through creating a coherent design system, exploring potential features and iterating with a functional approach, we were able to strengthen the quality of the product in ways that effectively met user goals. Although this is an ongoing project with many features that were considered however not yet implemented, the redesign was a first important step in moving forward for development and gaining more insightful user feedback.
          </p1>
-         <div className="mt-5 mb-20">
+         <div className="mt-5 mb-40 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
           <Image src={Sedesktop} alt="desktop" layout="responsive" objectFit="cover"/>
          </div>
          <div className="md:flex flex-col md:flex-row justify-start items-start items-center md:space-y-0 space-y-5">
@@ -126,21 +126,21 @@ export default function saloneverywhere() {
            </div>
            <div className="flex flex-col justify-between lg:mr-20">
              <p1 className="font-normal text-3xl lg:text-4xl text-left my-5">
-               Integrating a seamless flow to navigate through associated profiles.  
+               A seamless navigation between associated profiles.  
              </p1> 
              <p1 className="font-normal text-lg lg:text-xl text-left my-5">
                Knowing the importance of responsive web design, providing a corresponding experience in mobile view was critical. While maintaining consistency in typographic layout, hierarchy, iconography and brand colours, we also focused on presenting sections in the same design patterns to provide familiarity and ease.
              </p1>
            </div>
            </div>
-           <div className="my-5 md:mt-20 md:mb-10">
+           <div className="mt-40 md:mb-10">
             <Image src={Sepages} alt="pages" layout="responsive" objectFit="cover"/>
            </div>
            <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
              Developing and optimizing an end-to-end experience from a user perspective.
            </p1>
            <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-             Like most other platforms that embody user profiles, SalonEverywhere follows a familiar architecture encompassing both a user edit view and a public view. While designing for simplicity and clarity, some areas have been accommodated to meet developers' requests, having an effect on the design decisions made.<br/><br/>The edit modals are designed for users to easily edit the information presented on their profiles, all while adhering to defined design patterns and components. We focused on creating a frictionless experience through consistency in clear headings, subheadings and concise copy to efficiently guide a user through the process.<br/><br/>Due to the scope of the project, not all screens have been presented, however a business profile along with the respective edit modals would follow a similar structure as seen here.
+             Like most other platforms that embody user profiles, SalonEverywhere follows a familiar architecture encompassing both a user edit view and a public view. While designing for simplicity and clarity, some areas have been accommodated to meet developers' requests, having an effect on the design decisions made.<br/><br/>The edit modals are designed for users to easily edit the information presented on their profiles, all while adhering to defined design patterns and components. We focused on creating a frictionless experience through consistency in clear headings, subheadings and concise copy to efficiently guide a user through the process. Due to the scope of the project, not all screens have been presented, however a business profile along with the respective edit modals would follow a similar structure as seen here.
            </p1>
            <div className="my-5 mb-10 md:mb-20">
             <Image src={Semodals} alt="modals" layout="responsive" objectFit="cover"/>
@@ -152,7 +152,7 @@ export default function saloneverywhere() {
              Delivering the best possible outcome while designing within boundaries emphasized the value of internal communication, even within a very small team.
            </p1>
            <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-             With early and frequent communication to really streamline the workflow, every decision made was discussed thoroughly and rationally, in which we prioritized design for development as working within time was critical in a startup environment. Making optimal design decisions to support requests by our developing team meant working within boundaries and some limitations, however this ensured the process of invariably delivering the best.<br/><br/>As SalonEverywhere is an ongoing project, many areas of the platform are still under development including the landing page, onboarding flow, claiming or creating a business flow, local search engine and the implementation of new features just to name a few. Nonetheless, a first pass of redesigning what mainly consisted of SalonEverywhere was a significant milestone in bettering the current experience for existing users.
+             With early and frequent communication to streamline the workflow, every decision was thoroughly discussed, in which we prioritized design for development as working within time was critical in a startup environment. Making optimal design decisions to support requests by our developing team meant working within boundaries and some limitations, however this ensured the process of invariably delivering the best.<br/><br/>As SalonEverywhere is an ongoing project, many areas of the platform are still under development including the landing page, onboarding flow, claiming or creating a business flow, local search engine and the implementation of new features just to name a few. Nonetheless, redesigning what mainly consisted of SalonEverywhere was a significant milestone in bettering the current experience for existing users.
            </p1>
        </div>
       </div>

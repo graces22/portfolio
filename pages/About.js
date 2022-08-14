@@ -40,14 +40,14 @@ export default function About() {
                  01 / EXPERIENCE
                </p1>
                  <div className="flex flex-col justify-between">
-                   <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">UI/UX Design Lead</p1> 
+                   <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Lead UI/UX Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
                      <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Tario Ventures Group</p1>
                      <p1 className="font-normal text-lg lg:text-xl text-right text-zinc-400">Jan 2022 – Present</p1>
                    </div>
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">UI/UX Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
-                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Saloneverywhere</p1>
+                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">SalonEverywhere</p1>
                      <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Jan 2021 – Jan 2022</p1>
                    </div>
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Freelance Designer</p1> 
@@ -108,10 +108,10 @@ export default function About() {
               </div>
 
                  <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
-                    02 / A FEW FUN FACTS
+                    02 / FUN FACTS
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-                    grown to have awful handwriting · survives on iced coffee <span className="text-zinc-400">even in the cold</span> · loves anything matcha · appreciates typographic design · enjoys catching sunsets · codependent on furry friend · bakes <span className="text-zinc-400">blueberry scones</span> to relieve stress · keen on self-help books <span className="text-zinc-400">thanks to Mark Manson</span>
+                    grown to have awful handwriting · survives on iced coffee <span className="text-zinc-400">even in the cold</span> · enjoys catching sunsets · appreciates typography · finds pleasure in baking <span className="text-zinc-400">blueberry scones</span> · loves anything matcha · codependent on furry friend · keen on self-help books <span className="text-zinc-400">thanks to Mark Manson</span>
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left mt-10 mb-20 md:w-5/6 lg:w-4/6 mt-20">
                     Thank you for making it this far!

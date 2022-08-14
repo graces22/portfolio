@@ -8,7 +8,7 @@ function Footer() {
                    <div className="w-full border-t border-black border-dotted"></div>
                 </div>
 
-                <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 mb-4 mx-5 md:mx-6 lg:mx-8">I'd love to connect, please reach me at:</p1>
+                <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 mb-4 mx-5 md:mx-6 lg:mx-8">I'd love to connect, reach me at:</p1>
 
                 <div className="overflow-hidden h-24 md:h-28 lg:h-40 relative w-screen inline-block">
                 <div className="animate-marquee hover:pause inline-block whitespace-nowrap absolute">
@@ -26,10 +26,10 @@ function Footer() {
                    <div className="w-full border-t border-black border-dotted"></div>
                 </div>
                    <div className="space-between flex my-6 mx-5 md:mx-6 lg:mx-8">
-                      <p1 className="font-regular text-sm md:text-base text-left w-1/2">
-                        Designed and built by Grace Song.
+                      <p1 className="font-regular text-sm md:text-base text-left w-5/6">
+                        Built using Next.js and Tailwind by Grace Song.
                       </p1>
-                      <p1 className="font-regular text-sm md:text-base text-right w-1/2">
+                      <p1 className="font-regular text-sm md:text-base text-right w-1/6">
                         © 2022
                       </p1>
                   </div>

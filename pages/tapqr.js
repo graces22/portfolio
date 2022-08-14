@@ -17,10 +17,11 @@ import Tqrwireframe4 from "../public/images/tqr-wireframe4.png";
 import Tqrsolution from "../public/images/tqr-solution.png";
 import Tqrdesktoponboard from "../public/images/tqr-desktopgif1.gif";
 import Tqrdesktopcreate from "../public/images/tqr-desktopgif2.gif";
-import Tqrdesktop1 from "../public/images/tqr-desktop1.png";
+import Tqrhome from "../public/images/home-scroll.gif";
+import Tqrdesktop1 from "../public/images/tqr-desktop1.gif";
 import Tqrmobileonboard from "../public/images/tqr-mobilegif1.gif";
 import Tqrmobilecreate from "../public/images/tqr-mobilegif2.gif";
-import Tqrmobile1 from "../public/images/tqr-mobile1.png";
+import Tqrmobile1 from "../public/images/tqr-mobile1.gif";
 
 export default function tapqr() {
     const data = Projects.tapqr;
@@ -68,7 +69,7 @@ export default function tapqr() {
            TapQR provides users a new way to embed unique QR codes in social media posts—built on the Solana blockchain—ensuring layers of control, ownership and authority.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As of early 2022, clickable QR codes are likely to become a new behavior that unlocks tremendous value. A solution that works around this occurrence was critical and ideal, as posts have the potential to hold a very long life in a digital space, where some of the oldest posts are still valuable today. With this in mind, TapQR provides users an efficient way to instantly stamp their posts with a QR code, in which they are trackable and editable at any point in time.<br/><br/>Additionally, building a platform on the Solana blockchain solves the central authority problem, especially important for users who see value in the long-term use of QR codes. Users will be able to own their QR codes, with opportunities to grow traffic and potentially even sell for a greater value.
+           As of early 2022, clickable QR codes are likely to become a new behavior that unlocks tremendous value. A solution that works around this occurrence was critical and ideal, as posts have the potential to hold a very long life in a digital space, where some of the oldest posts are still valuable today. With this in mind, TapQR provides users an efficient way to instantly stamp their posts with trackable and editable QR codes.<br/><br/>Additionally, building a platform on the Solana blockchain solves the central authority problem, especially important for users who see value in the long-term use of QR codes. Users will be able to own their QR codes, with opportunities to grow traffic and potentially even sell for a greater value.
          </p1>
          <div className="mt-5 mb-20">
           <Image src={Tqrsolution} alt="solution" layout="responsive" objectFit="cover"/>
@@ -77,7 +78,7 @@ export default function tapqr() {
            03 / RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As the project was assigned with a potential idea, the research process began with an approach from a design perspective, in terms of how the product may take form and function in the hands of our users.
+           The research process began with an approach from a design perspective, in terms of how the product may take form and function in the hands of our users.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            We were building a product targeting social media users and human-generated content, and so it was important to run a competitive analysis with many products serving a similar purpose. TapQR would not only be a QR code generator, but more focussed on the integration with social media posts, therefore it was important to see what platforms are successfully used in accordance with content creation.<br/><br/>Canva, Picsart and Instasize to name a few, are popularly used in content creation, and drawing inspiration from them allowed us to design a product that was new in functionality yet still familiar in usability. We focused on determining what flows and experiences were working well in accomplishing main tasks, and what could be simplified or improved upon.
@@ -86,7 +87,7 @@ export default function tapqr() {
           <Image src={Tqrresearch1} alt="research-one" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Knowing the foundations of blockchain technology and how a world of dApps emerged was a critical area of research in designing a product for Web3.
+           Knowing the foundations of blockchain technology and how a world of dApps emerged was a critical area of research in designing for Web3.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            As a sole designer on the team and being completely new to blockchain, crypto and Web3, learning more about this growing ecosystem was essential even before diving into ideation for design. Through relative research and experiencing Solana first-hand, it was truly fascinating in discovering what the technology holds for futures of the Internet.<br/><br/>During what felt like going down a rabbit hole, an amazing article was able to interrupt and enlighten a hefty thought process. In addition, analyzing current dApps was crucial, as we wanted to identify what users may deem complicated, and what was working well in terms of an overall experience.<br/><br/>Upon gaining a better understanding, gathering some HMWs allowed us to ideate on how we want the product to best serve our users:
@@ -107,7 +108,7 @@ export default function tapqr() {
            04 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           With greater insight through research and analysis, we began narrowing our focus to determine features that would deliver a clear value and purpose.
+           With greater insight, we began narrowing our focus to determine features that would deliver a clear value and purpose.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            Along with designing the process of stamping a post with QR codes, we also wanted to focus on the overall experience of what the product would provide. This encompasses an aspect of community in which users can freely view details of top performing TapQR along with their respective creators, as well as having access to collaborate with brands.<br/><br/>We also sketched out potential flows of how a user can easily stamp their content, and determined that following a familiar pattern used in social media content generators would be critical to overcome any learning curves. This allows users to experience a simple flow with a powerful outcome, in which the process can be seen as adding a commonly used “sticker” overlaid on a post, while simply entering a destination URL.
@@ -119,7 +120,7 @@ export default function tapqr() {
            05 / USER FLOWS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           User flows are thoughtfully defined for key tasks, from easily getting started to initially generating a TapQR.
+           User flows are defined for key tasks, from easily getting started to initially generating TapQR.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            A very important step would be the first onboarding experience, especially for new users that would require an extra mile in creating a digital Phantom wallet on an external platform. We hypothesized that this would be a probable scenario and therefore focused on creating a very simple onboarding process internally, in which users would simply sign up with their full name and mobile verification. Other personal details and methods of authentication would be an optional step once they have successfully onboarded.
@@ -170,15 +171,18 @@ export default function tapqr() {
            TapQR for desktop, on the dark side.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           TapQR introduces an innovative approach to influencer marketing, making it easier than ever to embed every social media post with QR codes that direct an audience to critical links, all within a single tap. Presenting the benefits of Web3, TapQR built on the Solana blockchain incorporates fine layers of control, ownership and authority, along with opportunities to gain incentives from brand links with seamless transactions.
+           TapQR introduces an innovative approach to influencer marketing, making it easier than ever to embed social media posts with QR codes that can direct an audience to critical links, all within a single tap. Presenting the benefits of Web3, TapQR built on the Solana blockchain incorporates fine layers of control, ownership and authority, along with opportunities to gain incentives from brand links with seamless transactions. While a landing page is able to inform and engage new and existing users, getting started is made to be as effortless as connecting to a Phantom wallet.
          </p1>
-         <div className="my-5">
+         <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
+          <Image src={Tqrhome} alt="desktop-screens1" layout="responsive" objectFit="cover"/>
+         </div>
+         <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
           <Image src={Tqrdesktoponboard} alt="desktop-onboard" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience. While a landing page is able to inform and engage new and existing users, getting started is made to be as effortless as connecting to a Phantom wallet.
+           As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience.
          </p1>
-         <div className="my-5">
+         <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
           <Image src={Tqrdesktopcreate} alt="desktop-create" layout="responsive" objectFit="cover"/>
          </div>
          <div className="mt-5 mb-40">
@@ -191,17 +195,17 @@ export default function tapqr() {
            </div>
            <div className="flex flex-col justify-between lg:mr-20">
              <p1 className="font-normal text-3xl lg:text-4xl text-left my-5">
-               TapQR mobile app, for even more convenience.
+               TapQR creation at your fingertips with the mobile app.
              </p1> 
              <p1 className="font-normal text-lg lg:text-xl text-left my-5">
-               Consistent with desktop, the onboarding is a 1-step flow in which connecting to a wallet is all that is required to get started. Splash screens are presented with benefits as well as being a visual guide for next steps. The option to skip the step of connecting to a wallet is also seen as a lenient way for new users to explore what the app provides, even before continuing as a user.
+               Consistent with desktop, the onboarding is a simple flow along with splash screens presenting the benefits and guidance for next steps. The option to skip wallet connection is also intended to be a lenient way for new users to explore the app, even before continuing as a user.
              </p1>
            </div>
          </div>
          <div className="flex flex-col-reverse md:flex-row justify-start items-start items-center md:space-y-0 space-y-5 my-20">
            <div className="flex flex-col justify-between lg:ml-20 mt-5 md:mt-0">
              <p1 className="font-normal text-3xl lg:text-4xl text-left my-5">
-               Seamlessly create TapQR—informative and coherent, every step of the way.
+               Seamless TapQR creation—informative and coherent, every step of the way.
              </p1> 
              <p1 className="font-normal text-lg lg:text-xl text-left my-5">
                The process of creating TapQR resembles common photo editors, implying that it will be quick, fun and intuitive. Supporting text along the way is an element that ensures the user is always aware and confident of the action being done, especially because a TapQR is immutable in some ways once the transaction is confirmed.
@@ -221,7 +225,7 @@ export default function tapqr() {
            Knowing that Web3 is picking up momentum with each passing day, it was an incredible opportunity to learn as much as design for a project with a potential place in this community.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Although this project was born with a speculative approach, as QR codes are not yet clickable within major social platforms, it was truly eye-opening to see a visual proof of concept come to life within unknown boundaries. With so many potential features that were considered including marketplace to buy, sell and rent TapQR, messaging system and more, it was definitely challenging to narrow down on core features within our timeframe.<br/><br/>On a side note, unfortunately the project was paused and did not get fully developed due to unforeseen reasons within our permitting environment, however an MVP with core functionality was completed on our developers’ end. Given this, we were able to conclude the project for the time being, holding great potential for further development when the opportunity came.<br/><br/>Being able to take part in the shift from Web2 to Web3 is exciting in itself, and tuning in on this transition from a design perspective has not failed to intrigue. With well-designed user-experiences at the forefront, it is truly motivating to stay in the loop on this fundamental change, with incredible design challenges yet to come.
+           Although this project was born with a speculative approach, as QR codes are not yet clickable within major social platforms, it was truly eye-opening to see a visual proof of concept come to life within unknown boundaries. It was definitely challenging to narrow down on core features within our timeframe with many features that were considered including marketplace to buy and sell TapQR, messaging system and more.<br/><br/>On a side note, unfortunately the project was paused and did not get fully developed due to unforeseen reasons within our permitting environment, however an MVP with core functionality was completed on our developers’ end. Given this, we were able to conclude the project for the time being, holding great potential for further development.<br/><br/>Being able to take part in the shift from Web2 to Web3 is exciting in itself, and tuning in on this transition from a design perspective has not failed to intrigue. With well-designed user-experiences at the forefront, it is truly motivating to stay in the loop on this fundamental change, with incredible design challenges yet to come.
          </p1>
 
        </div>
