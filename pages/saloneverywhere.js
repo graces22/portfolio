@@ -118,11 +118,11 @@ export default function saloneverywhere() {
            Through creating a coherent design system, exploring potential features and iterating with a functional approach, we were able to strengthen the quality of the product in ways that effectively met user goals. Although this is an ongoing project with many features that were considered however not yet implemented, the redesign was a first important step in moving forward for development and gaining more insightful user feedback.
          </p1>
          <div className="mt-5 mb-40 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
-          <Image src={Sedesktop} alt="desktop" layout="responsive" objectFit="cover"/>
+          <Image src={Sedesktop} alt="desktop" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <div className="md:flex flex-col md:flex-row justify-start items-start items-center md:space-y-0 space-y-5">
            <div className="w-full md:w-1/2 relative shrink-0">
-            <Image src={Semobile} alt="mobile" layout="responsive" objectFit="cover"/>
+            <Image src={Semobile} alt="mobile" layout="responsive" objectFit="cover" priority="true"/>
            </div>
            <div className="flex flex-col justify-between lg:mr-20">
              <p1 className="font-normal text-3xl lg:text-4xl text-left my-5">

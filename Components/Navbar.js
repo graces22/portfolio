@@ -66,7 +66,7 @@ export default function Navbar() {
                                      <Disclosure.Button>
                                      <ul>   
                                <li>
-                                  <Link href="/">
+                                  <Link href="/#Projects">
                                      <a className="cursor-pointer block ml-3 py-6 text-5xl text-left font-regular">Projects</a>
                                   </Link>
                                </li>

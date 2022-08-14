@@ -174,24 +174,24 @@ export default function tapqr() {
            TapQR introduces an innovative approach to influencer marketing, making it easier than ever to embed social media posts with QR codes that can direct an audience to critical links, all within a single tap. Presenting the benefits of Web3, TapQR built on the Solana blockchain incorporates fine layers of control, ownership and authority, along with opportunities to gain incentives from brand links with seamless transactions. While a landing page is able to inform and engage new and existing users, getting started is made to be as effortless as connecting to a Phantom wallet.
          </p1>
          <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
-          <Image src={Tqrhome} alt="desktop-screens1" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrhome} alt="desktop-screens1" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
-          <Image src={Tqrdesktoponboard} alt="desktop-onboard" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrdesktoponboard} alt="desktop-onboard" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience.
          </p1>
          <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
-          <Image src={Tqrdesktopcreate} alt="desktop-create" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrdesktopcreate} alt="desktop-create" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <div className="mt-5 mb-40">
-          <Image src={Tqrdesktop1} alt="desktop-screens1" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrdesktop1} alt="desktop-screens1" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          
          <div className="md:flex flex-col md:flex-row justify-start items-start items-center md:space-y-0 space-y-5 my-20">
            <div className="w-full md:w-1/2 relative shrink-0 mb-5 md:mb-0 px-20 lg:px-40">
-            <Image src={Tqrmobileonboard} alt="mobile-onboard" layout="responsive" objectFit="cover"/>
+            <Image src={Tqrmobileonboard} alt="mobile-onboard" layout="responsive" objectFit="cover" priority="true"/>
            </div>
            <div className="flex flex-col justify-between lg:mr-20">
              <p1 className="font-normal text-3xl lg:text-4xl text-left my-5">
@@ -212,11 +212,11 @@ export default function tapqr() {
              </p1>
            </div>
              <div className="w-full md:w-1/2 relative shrink-0 px-20 lg:px-40">
-               <Image src={Tqrmobilecreate} alt="mobile-create" layout="responsive" objectFit="cover"/>
+               <Image src={Tqrmobilecreate} alt="mobile-create" layout="responsive" objectFit="cover" priority="true"/>
              </div>
          </div>
          <div className="my-20">
-          <Image src={Tqrmobile1} alt="mobile-cover" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrmobile1} alt="mobile-cover" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            08 / REFLECTION
