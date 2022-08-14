@@ -11,7 +11,7 @@ const Projectheader = (props) => {
     <div>
       <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 md:pt-28 pt-28">
          <div className="flex flex-col md:mx-3 mx-5 mt-0">
-             <h1 className="font-normal text-[56px] md:text-8xl lg:text-9xl text-left mb-5">
+             <h1 className="font-normal text-5xl md:text-8xl lg:text-9xl text-left mb-5">
                   {title}
              </h1>
                <div className="pt-0 md:pt-4">

@@ -277,7 +277,7 @@ export default function beautyfiles() {
            10 / REFLECTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           With great feedback, there are always endless opportunities for improvement, which in our case can be more approachable and adoptable.
+           With great feedback, there are always endless opportunities for improvement, which in our case may be more valuable and adoptable.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            In retrospect, there were many aspects of the product that we had initially envisioned, however was not implemented due to focussing on core functionality in building MVP. It was critical to see how our initial users reacted to the product early on, in which it would determine the next steps for further development.<br/><br/>We quickly discovered that the product had great potential to be valued in the market, however was a “very new concept” that would take time and effort to be adopted by beauty pros today. Another obstacle could be that clients may not be willing to download an entirely new app regardless, in which they would need a greater purpose.<br/><br/>In all, this was an incredible project to take part in, especially in terms of designing a new product that had the potential to solve major challenges that pros faced today, along with tackling a larger business problem within SalonEverywhere.
