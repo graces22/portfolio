@@ -41,7 +41,7 @@ export default function tapqr() {
      <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-5 md:mt-10">
        <div className="flex flex-col md:mx-3 mx-5 mt-0">
          <div className="mb-20">
-          <Image src={Tqrhero} alt="solution" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrhero} alt="solution" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
