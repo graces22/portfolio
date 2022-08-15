@@ -72,7 +72,7 @@ export default function tapqr() {
            As of early 2022, clickable QR codes are likely to become a new behavior that unlocks tremendous value. A solution that works around this occurrence was critical and ideal, as posts have the potential to hold a very long life in a digital space, where some of the oldest posts are still valuable today. With this in mind, TapQR provides users an efficient way to instantly stamp their posts with trackable and editable QR codes.<br/><br/>Additionally, building a platform on the Solana blockchain solves the central authority problem, especially important for users who see value in the long-term use of QR codes. Users will be able to own their QR codes, with opportunities to grow traffic and potentially even sell for a greater value.
          </p1>
          <div className="mt-5 mb-20">
-          <Image src={Tqrsolution} alt="solution" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrsolution} alt="solution" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            03 / RESEARCH
@@ -84,7 +84,7 @@ export default function tapqr() {
            We were building a product targeting social media users and human-generated content, and so it was important to run a competitive analysis with many products serving a similar purpose. TapQR would not only be a QR code generator, but more focussed on the integration with social media posts, therefore it was important to see what platforms are successfully used in accordance with content creation.<br/><br/>Canva, Picsart and Instasize to name a few, are popularly used in content creation, and drawing inspiration from them allowed us to design a product that was new in functionality yet still familiar in usability. We focused on determining what flows and experiences were working well in accomplishing main tasks, and what could be simplified or improved upon.
          </p1>
          <div>
-          <Image src={Tqrresearch1} alt="research-one" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrresearch1} alt="research-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            Knowing the foundations of blockchain technology and how a world of dApps emerged was a critical area of research in designing for Web3.
@@ -102,7 +102,7 @@ export default function tapqr() {
          </div>
              
          <div className="mb-20">
-          <Image src={Tqrresearch2} alt="research-two" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrresearch2} alt="research-two" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            04 / IDEATION
@@ -114,7 +114,7 @@ export default function tapqr() {
            Along with designing the process of stamping a post with QR codes, we also wanted to focus on the overall experience of what the product would provide. This encompasses an aspect of community in which users can freely view details of top performing TapQR along with their respective creators, as well as having access to collaborate with brands.<br/><br/>We also sketched out potential flows of how a user can easily stamp their content, and determined that following a familiar pattern used in social media content generators would be critical to overcome any learning curves. This allows users to experience a simple flow with a powerful outcome, in which the process can be seen as adding a commonly used “sticker” overlaid on a post, while simply entering a destination URL.
          </p1>
          <div className="mb-20">
-          <Image src={Tqrideation} alt="ideation" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrideation} alt="ideation" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            05 / USER FLOWS
@@ -126,13 +126,13 @@ export default function tapqr() {
            A very important step would be the first onboarding experience, especially for new users that would require an extra mile in creating a digital Phantom wallet on an external platform. We hypothesized that this would be a probable scenario and therefore focused on creating a very simple onboarding process internally, in which users would simply sign up with their full name and mobile verification. Other personal details and methods of authentication would be an optional step once they have successfully onboarded.
          </p1>
          <div className="my-5">
-          <Image src={Tqrflow1} alt="flow-one" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrflow1} alt="flow-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            While the onboarding flow focuses on simplicity and ease to get as many users on and going, the key flows for creating, editing and downloading a TapQR relies on familiarity, in which we aimed to minimize the learning curve in using this product. A step-by-step process that follows the commonalities of photo editors as well as QR code generators helped visualize key screens and an overall intuitive experience.<br/><br/>A significant task to overcome in this flow would be the process of confirming the transaction through their Phantom wallet. To minimize friction, it is left as a last task for completion, and has been treated in a familiar method of payment seen in ecommerce today, in which it is informative enough yet not overwhelming.
          </p1>
          <div className="mt-5 mb-20">
-          <Image src={Tqrflow2} alt="flow-two" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrflow2} alt="flow-two" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            06 / WIREFRAMES
@@ -144,25 +144,25 @@ export default function tapqr() {
            Review and feedback was noted along the way, in which it helped further refine the final outcome through several iterations. In all cases, we were looking to simplify every step in allowing the user to get instant gratification through creating TapQR as early in the process. This convinced us to strip down the onboarding flow even further, in which all that is required would be connecting to a Phantom wallet, and all else will follow as optional elements of a user profile.
          </p1>
          <div className="my-5">
-          <Image src={Tqrwireframe1} alt="wireframe-one" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrwireframe1} alt="wireframe-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            The process of creating TapQR is as simple as uploading assets, defining a destination URL, customizing the style and confirming the transaction as prompted through Phantom. To ensure that every step is cohesive, it was determined that supporting copy would be necessary in each modal to fully and effectively guide users all the way through.
          </p1>
          <div className="my-5">
-          <Image src={Tqrwireframe2} alt="wireframe-two" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrwireframe2} alt="wireframe-two" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            Additional screens consisted of edit modals, detail pages as well as user profiles, in which a public and private view is not differentiated, even more so a unified view other than the edit functionality and actions permitted. As it was determined that brands would only be able to provide brand links through what could potentially be a Shopify plugin, a separate onboarding flow within TapQR was not considered, and was rather treated as a front-end view through a brand profile.
          </p1>
          <div className="my-5">
-          <Image src={Tqrwireframe3} alt="wireframe-three" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrwireframe3} alt="wireframe-three" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            With a goal to impose a general practice of embedding QR codes, designing a mobile app for TapQR was inevitable as it provides a seamless and convenient experience for social media users. One challenge was that the desktop app was suitable for bulk creations yet is not as commonly seen within mobile. Finding a way to intuitively support this same functionality within mobile was a critical aspect in providing an ideal and consistent experience throughout.
          </p1>
          <div>
-          <Image src={Tqrwireframe4} alt="wireframe-four" layout="responsive" objectFit="cover"/>
+          <Image src={Tqrwireframe4} alt="wireframe-four" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            07 / FINAL OUTCOME
