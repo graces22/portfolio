@@ -108,7 +108,7 @@ export default function About() {
               </div>
 
                  <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
-                    02 / FUN FACTS
+                    02 / SMALL FACTS
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
                     grown to have awful handwriting · survives on iced coffee <span className="text-zinc-400">even in the cold</span> · enjoys catching sunsets · appreciates typography · finds pleasure in baking <span className="text-zinc-400">blueberry scones</span> · loves anything matcha · codependent on furry friend · keen on self-help books <span className="text-zinc-400">thanks to Mark Manson</span>

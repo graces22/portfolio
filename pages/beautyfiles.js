@@ -6,6 +6,12 @@ import Projectheader from "../Components/projectheader";
 import Image from "next/image";
 import Bfhero from "../public/images/Two.jpeg";
 import Bfintro from "../public/images/bf-intro.jpg";
+import Bfgraph1 from "../public/images/bf-graph1.gif";
+import Bfgraph2 from "../public/images/bf-graph2.png";
+import Bfgraph3 from "../public/images/bf-graph3.png";
+import Bfgraph4 from "../public/images/bf-graph4.png";
+import Bfgraph5 from "../public/images/bf-graph5.png";
+import Bfjourneymap from "../public/images/bf-journeymap.png";
 import Bfresearch from "../public/images/bf-research.jpg";
 import Propersona from "../public/images/bf-propersona.png";
 import Clientpersona from "../public/images/bf-clientpersona.png";
@@ -66,7 +72,7 @@ export default function beautyfiles() {
            02 / THE SOLUTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           The BeautyFiles app provides a new digital system, empowering beauty pros to better engage clients on a more personal level.
+           The BeautyFiles app is a new digital system empowering beauty pros to better engage clients on a more personal level.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            An extension to SalonEverywhere—designed to be a simple yet powerful tool in which beauty pros can create and share follow-up content with clients. Including features like product recommendations and secure image permissions, BeautyFiles is a new approach in providing a digital space for pros to fulfill essential business goals in ways that were not feasible. It is also intended to add great value for potential clients by enhancing the post-service experience in several ways.<br/><br/>The project was assigned with a clear purpose that it would be a mobile app due to the fact that most pros spend their days at work—only having access to their smartphones. In order to engage users on a daily basis, the idea of being able to “own the phone” became relevant in defining the scope of this project.
@@ -75,13 +81,65 @@ export default function beautyfiles() {
           <Image src={Bfintro} alt="mockup" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
-           03 / USER RESEARCH
+           03 / PRELIMINARY RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           First steps in approaching the problem was to get insight on what beauty pros currently find valuable and challenging in growing their business.
+           Preliminary research helped learn more about the beauty industry in a broader context, specific to best practices in growing a salon business.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Through interviewing a hair salon, we focussed on questioning the process of a typical pro-to-client interaction to learn about any habits, concerns or hindrances throughout the beauty service experience. This encompasses a critical area of understanding the challenges they faced with the current ways of achieving business goals, whether that be in-person or online. Some relevant findings include:
+           We jumped into the project with a strong assumption that bettering client engagement was the most important aspect in growing a beauty business, in order to attract new clients and keep the current coming back. We turned to research in justifying our assumption while also gaining a better understanding of the landscape we were working in. Through this, we were able to narrow down our focus on solid elements that surrounded best practices and the fundamentals of growing salon businesses.
+         </p1>
+         <div className="md:w-5/6 mt-5">
+          <Image src={Bfgraph1} alt="graph" layout="responsive" objectFit="cover"/>
+         </div>
+         <p1 className="text-base text-left text-zinc-400">Source: <a href="https://bookedin.com/blog/best-way-to-attract-new-clients-to-my-salon/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">BookedIn</a></p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-10 mb-5 md:w-5/6 lg:w-4/6">
+           Research shows that around half of your clients will disappear over the course of three years, in which efforts to constantly bring in a stream of steady clients was an integral part of growing a beauty business. To achieve this, we discovered that rebooking is a critical area of client retention, however SalonEverywhere from a business perspective was not looking to compete in this red ocean of salon software already providing successful booking services. On the other hand, as this was a valuable element for beauty businesses, we did want to build upon rebooking in a way that was highly accessible and convenient for clients.
+         </p1>
+         <div className="md:w-5/6 mt-5">
+          <Image src={Bfgraph2} alt="graph-stats" layout="responsive" objectFit="cover"/>
+         </div>
+         <p1 className="text-base text-left text-zinc-400">Source: <a href="https://www.americansalon.com/business/9-tips-for-increasing-client-loyalty" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">American Salon</a></p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-10 mb-5 md:w-5/6 lg:w-4/6">
+           Building a strong relationship is also a core element in the salon business, in which clients want to feel valued and engaged during and after a service. Beauty pros today are inclined to use social media and email as a way for communication, however while email and phone calls are considered traditional channels for communication, text messaging is found to be more convenient and preferred by millennials today. A study shows that 80% of consumers want to be able to message with businesses, and 55% prefer SMS for reminders over emails.<br/><span className="text-base text-left text-zinc-400">Source: <a href="https://callhub.io/text-message-marketing-statistics/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">CallHub</a></span>
+         </p1>
+         
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           On the contrary, the beauty industry has a slightly different opinion on texting messaging with clients, in which it often lacks professionalism, along with taking into account privacy issues that may arise. An article states:
+         </p1>
+         <div className="flex flex-row mt-5 mb-20 ">
+         <div className="pr-4 lg:pr-6">
+           <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
+         </div>
+         <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 md:w-5/6 lg:w-4/6">
+           “While it’s tempting to communicate with your client the same way you would with a friend, it could become disastrous down the road. Texting is a casual and quick form of communication. This may be great for personal life, but in business it can be perceived as unprofessional.”
+           <br/><span className="text-base text-left text-zinc-400">Source: <a href="https://sugarstudiosdesign.com/2017/03/28/never-text-message-clients/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">Sugar Studios</a></span>
+         </p1>
+         </div>
+         <div className="md:w-5/6 mt-5">
+          <Image src={Bfgraph4} alt="graph-stats" layout="responsive" objectFit="cover"/>
+         </div>
+         <p1 className="text-base text-left text-zinc-400">Source: <a href="https://blog.wishpond.com/post/89814626545/social-media-marketing-for-salons-21-tips-and" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">WishPond</a><span>, </span><a href="https://www.styleseat.com/blog/salon-marketing-ideas/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">Style Seat</a></p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-10 mb-5 md:w-5/6 lg:w-4/6">
+           Another essential area for growing a salon business is known to be social media marketing. Many articles emphasize that the key to marketing is focusing on the images, which can be as simple as posting before and after images of the transformation, in which it speaks to an audience in an authentic way of what the salon offers. In addition, online reviews also play a huge role in influencing a client’s decision based on social proof.
+         </p1>
+         <div className="md:w-5/6 mt-5">
+          <Image src={Bfgraph5} alt="graph-stats" layout="responsive" objectFit="cover"/>
+         </div>
+         <p1 className="text-base text-left text-zinc-400">Source: <a href="https://thesalonbusiness.com/are-hair-salons-profitable/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">The Salon Business</a><span>, </span><a href="https://www.resultsimagery.com/blog/how-quality-product-photography-drives-conversions-for-ecommerce-sellers" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">Results Imagery</a></p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-10 mb-5 md:w-5/6 lg:w-4/6">
+           According to experts in the industry, selling a high amount of salon retail is a large factor in ultimately growing business through profitability. With this in mind, we further learned that purchasing habits have changed with emerging technology over time, in which many salons face the issue of losing sales to other retailers, specifically buying online with sufficient reasoning.
+         </p1>
+        
+        
+         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+           04 / USER RESEARCH
+         </p1>
+         <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
+           For a deeper dive into the problem space, we conducted user interviews to get insights on what they currently find valuable and challenging in growing their business on a daily basis.
+         </p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           Building upon our research, interviewing real stylists at a hair salon allowed for a more personal and intimate understanding of the challenges they faced. We focussed on questioning the process of a typical pro-to-client interaction to learn about any habits, concerns or hindrances throughout the experience. Some relevant insights include:
          </p1>
 
          <div className="flex flex-row mt-5 mb-20 ">
@@ -92,12 +150,20 @@ export default function beautyfiles() {
          “A big portion of our business relies on selling retail products, but it is the most challenging part as we know clients are already spending a significant amount on the services we provide.”<br/><br/>“When a client seems interested but does not end up purchasing, we would write the exact name of the product and our website on paper, for their reference to shop online.”<br/><br/>“Posting before and after images is an important way of promoting our services, but we’re often unsure about whether a client has allowed permission to post images of them on social media.”
          </p1>
          </div>
+         
          <div>
           <Image src={Bfresearch} alt="research" layout="responsive" objectFit="cover"/>
          </div>
+         <p1 className="font-normal text-lg lg:text-xl text-left my-10 md:w-5/6 lg:w-4/6">
+          Upon connecting, we discovered commonalities and overarching themes that were able to validate some of our early research findings. This includes common challenges with the current ways of achieving business goals, especially after services when trying to sell recommended products or rebooking clients. Overall, we were able to get a closer look into the entire process, and discovered new challenges that we were not aware of previously, for instance concerns around image permissions and struggling to engage clients throughout the post service, follow up experience.<br/><br/>With greater insight and a better sense of a beauty pro’s perspective when interacting with clients, a journey map was defined to thoughtfully understand the pain points throughout the client engagement experience. Through determining these areas, it further allowed us to discover opportunities for improvement with a new outlook.
+         </p1>
+         <div>
+          <Image src={Bfjourneymap} alt="journeymap" layout="responsive" objectFit="cover"/>
+         </div>
+         
 
-         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-          Based on relevant findings from a pro’s perspective, we asked questions accordingly and discovered some commonalities along with other needs that persisted from a client’s point of view:
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-20 mb-5 md:w-5/6 lg:w-4/6">
+          Based on key areas we explored and identitfied from a pro’s perspective, we asked questions accordingly and discovered some commonalities along with other needs that persisted from a client’s point of view:
          </p1>
          <div className="flex flex-row mt-5 mb-32 ">
          <div className="pr-4 lg:pr-6">
@@ -109,7 +175,7 @@ export default function beautyfiles() {
          </div>
          
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           From further research, we better understood the issues that pros and clients faced, and how the product could serve as a tangible solution.
+           Moving forward, we better understood the issues that pros and clients faced, and how the product could serve as a tangible solution.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            Knowing that the product would serve both beauty pros and clients, user personas are established for guidance and a practical sense of who we're designing for. To better understand how we want the product to achieve user needs, some questions were:
@@ -132,19 +198,19 @@ export default function beautyfiles() {
          </div>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
-           04 / IDEATION
+           05 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            From relevant research and analysis, it was clear that beauty pros needed a new way to grow their business with a digital approach.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Unlike social media marketing, building a system to connect beauty pros and their clients on a more personal level while still maintaining a professional form of communication became an ideal solution. While keeping relevant questions in mind, the process began with brainstorming potential features that would solve these challenges, and transitioned into sketches of how the product could initially take form.<br/><br/>It was necessary to introduce an app that was innovative yet rather familiar, in order to prevent major obstacles in users trying to learn and adopt a new system. Drawing inspiration from digital communication today (text messaging, email, etc.) allowed us to build upon an approachable structure of the app.
+           We determined that building a system to connect beauty pros and their clients on a more personal level while still maintaining a professional form of communication became an ideal solution. While keeping relevant questions in mind, the process began with synthesizing our research findings to brainstorm potential features that could solve these challenges, and transitioned into sketches of how the product could initially take form.<br/><br/>It was necessary to introduce an app that was innovative yet rather familiar, in order to prevent major obstacles in users trying to learn and adopt a new system. Given this, drawing inspiration from digital communication today allowed us to build upon an approachable structure of the app.
          </p1>
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Bfideation} alt="Ideation" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
-           05 / USER FLOWS
+           06 / USER FLOWS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            Designing a product that serves two distinct user groups, in which beauty pros create files, and clients simply receive.
@@ -156,7 +222,7 @@ export default function beautyfiles() {
           <Image src={Bfflowmap} alt="flowmap" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
-           06 / WIREFRAMES
+           07 / WIREFRAMES
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            This stage allowed for an early visual analysis in opportunities for improvement—focusing on user flows, complexity of features, and a scope for development.
@@ -171,7 +237,7 @@ export default function beautyfiles() {
           <Image src={Wireframe2} alt="wireframes" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
-           07 / FEEDBACK AND ITERATION
+           08 / FEEDBACK AND ITERATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            A first pass of review and feedback informed the process of exploration for optimal solutions.
@@ -183,7 +249,7 @@ export default function beautyfiles() {
           <Image src={Bfiterations} alt="iteration" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
-           08 / HIGH-FIDELITY PROTOTYPES
+           09 / HIGH-FIDELITY PROTOTYPES
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            To test usability, hi-fi prototypes are presented, iterating upon critical feedback.
@@ -201,7 +267,7 @@ export default function beautyfiles() {
           <Image src={Bfhificlient} alt="hifi-client" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
-           09 / FINAL OUTCOME
+           10 / FINAL OUTCOME
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            The BeautyFiles app, for pros.
@@ -274,7 +340,7 @@ export default function beautyfiles() {
              </div>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
-           10 / REFLECTION
+           11 / REFLECTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
            With great feedback, there are always endless opportunities for improvement, which in our case may be more valuable and adoptable.

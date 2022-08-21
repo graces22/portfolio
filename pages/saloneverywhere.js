@@ -39,10 +39,10 @@ export default function saloneverywhere() {
            01 / THE PROBLEM
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           First analyzing the current experience of SalonEverywhere was critical in determining the pain points and general challenges that persisted for existing users.
+           While a first version of SalonEverywhere was a successful MVP, the overall experience was lacking in terms of quality, usability and effectiveness.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           SalonEverywhere strives to provide a digital outlet, in which businesses and their pros can present what they offer through a professional profile that can ultimately be a website, resume and portfolio altogether. Overall, we found that the biggest issue from a user perspective was that it lacked a sense of structure, making it difficult to find relevant information and navigate through profiles. In many ways, it did not follow a solid design system, resulting in lower engagement from both the pro and client side.
+           SalonEverywhere strives to provide a digital outlet, in which businesses and their pros can present what they offer through a professional profile that can ultimately be a website, resume and portfolio altogether. Overall, we found that the biggest issue from a user perspective was that it lacked a sense of structure, making it difficult to find relevant information and navigate through profiles. In many ways, it was not an intuitive user experience and did not meet the needs of our users, ultimately resulting in lower engagement from both the pro and client side.
          </p1>
        </div>
       </div>
@@ -50,7 +50,7 @@ export default function saloneverywhere() {
         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
           THE DESIGN CHALLENGE
         </p1>
-        <h1 className="text-3xl md:text-5xl lg:text-6xl text-left my-2 md:my-5 mx-5 md:mx-3 md:w-5/6 lg:w-4/6 text-black">How might we engage new and existing users to gain leverage on networking and local discovery through providing a foolproof platform with a visual tone that speaks to the beauty industry?</h1>
+        <h1 className="text-3xl md:text-5xl lg:text-6xl text-left my-2 md:my-5 mx-5 md:mx-3 md:w-5/6 lg:w-4/6 text-black">How might we engage new and existing users through providing a foolproof platform that meets their needs, with a visual tone that speaks to the beauty industry?</h1>
       </div>
       <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 lg:mt-20">
        <div className="flex flex-col md:mx-3 mx-5 mt-10 md:mt-20">
@@ -58,16 +58,16 @@ export default function saloneverywhere() {
            02 / ANALYSIS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           It was important to make design changes based on these findings to create a seamless user experience, especially for responsive web.
+           Analyzing the current interface in both desktop and mobile ensured prioritizing redesign for effective usability.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           A pro profile consisted of various sections, however it lacked an interactive approach as it did not provide clients with essential call-to-action links, for instance, a very critical booking link. Based on interviews, beauty pros along with clients emphasized the importance of being able to conveniently find relevant info on a single page.
+           With a focus on redesigning what consisted of pro and business profile pages, a heuristic evaluation was conducted through a markup of key screens, analyzing the current interface and the overall experience. As a sole evaluator, observations were noted while keeping in mind both the user being a beauty pro as well as from a client-facing view, in which they may have different needs along the way.<br/><br/>From a client view, it was apparent that their needs were not being met in terms of accomplishing a specific task. Most clients would expect to discover a new hair salon or stylist and would want relevant information to connect with the business in some way. While a profile consisted of various sections, it did not provide clients with essential call-to-action links, for instance a very critical booking link, in which this could ultimately drive users away from SalonEverywhere.
          </p1>
          <div className="my-5">
           <Image src={Proheader} alt="pro-profile" layout="responsive" objectFit="cover"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Similarly, a business profile lacked necessary elements to drive new bookings and ultimately grow their business. It was apparent that the typography did not perform well within this layout due to a line length that was not optimal for readability, along with an empty column below the side navigation being a poor use of real estate. In terms of mobile view, it did not conform to a responsive design system, with inconsistencies in text alignment and discordant design patterns seen within various sections.
+           Similar issues and inconsistencies persisted within a business profile, while also lacking necessary elements to drive new bookings and meet the needs of their potential clients. While we aimed to make changes accordingly, an area we wanted to focus on was developing and implementing a comprehensive design system that would unify design patterns for simplicity and ease.
          </p1>
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Bizheader} alt="biz-profile" layout="responsive" objectFit="cover"/>
