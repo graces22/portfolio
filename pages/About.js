@@ -95,7 +95,7 @@ export default function About() {
                  <p className='text-lg text-left pb-4'>Interpersonal</p>
                  <ul className='text-base text-left text-zinc-400'>
                    <li>Punctual</li>
-                   <li>Attentive</li>
+                   <li>Collaborative</li>
                    <li>Detail-oriented</li>
                    <li>Empathetic</li>
                    <li>Adaptable</li>

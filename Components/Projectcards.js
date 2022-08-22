@@ -8,11 +8,11 @@ import Sehero from "../public/images/Three.png";
 function Projectcards() {
   return (
       <Element id="Projects" name="Projects">
-           <div className="flex-col justify-start text-center mx-5 md:mx-6 lg:mx-8 py-44 space-y-40">
+           <div className="flex-col justify-start text-center mx-5 md:mx-6 lg:mx-8 pt-60 pb-44 space-y-52">
 
            <div className="flex-col md:flex md:flex-row justify-between md:space-x-7">
                  <div className="w-full md:w-2/3 md:flex-1">
-                  <a href="/tapqr"><Image src={Tqrhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
+                  <a href="/tapqr"><Image src={Tqrhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-500"/></a>
                  </div>
                  <div className="md:flex flex-col w-full md:w-1/3 md:ml-6 lg:ml-8 justify-between">   
                    <div className="mt-5 md:mt-0 space-y-4">
@@ -31,7 +31,7 @@ function Projectcards() {
 
             <div className="flex-col md:flex md:flex-row justify-between md:space-x-7">
                  <div className="w-full md:w-2/3 md:flex-1">
-                  <a href="/beautyfiles"><Image src={Bfhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
+                  <a href="/beautyfiles"><Image src={Bfhero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-500"/></a>
                  </div>
                  <div className="md:flex flex-col w-full md:w-1/3 md:ml-6 lg:ml-8 justify-between">   
                    <div className="mt-5 md:mt-0 space-y-4">
@@ -50,7 +50,7 @@ function Projectcards() {
 
             <div className="flex-col md:flex md:flex-row justify-between md:space-x-7">
                  <div className="w-full md:w-2/3 md:flex-1">
-                  <a href="/saloneverywhere"><Image src={Sehero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer"/></a>
+                  <a href="/saloneverywhere"><Image src={Sehero} alt="hero" layout="responsive" objectFit="cover" className="p-2 cursor-pointer transition ease-in-out delay-100 hover:scale-105 duration-500"/></a>
                  </div>
                  <div className="md:flex flex-col w-full md:w-1/3 md:ml-6 lg:ml-8 justify-between">   
                    <div className="mt-5 md:mt-0 space-y-4">
