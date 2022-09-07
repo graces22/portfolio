@@ -22,6 +22,7 @@ import Tqrdesktop1 from "../public/images/tqr-desktop1.gif";
 import Tqrmobileonboard from "../public/images/tqr-mobilegif1.gif";
 import Tqrmobilecreate from "../public/images/tqr-mobilegif2.gif";
 import Tqrmobile1 from "../public/images/tqr-mobile1.gif";
+import Tqrdesignsystem from "../public/images/tqr-designsystem.png";
 
 export default function tapqr() {
     const data = Projects.tapqr;
@@ -159,7 +160,7 @@ export default function tapqr() {
           <Image src={Tqrwireframe3} alt="wireframe-three" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           With a goal to impose a general practice of embedding QR codes, designing a mobile app for TapQR was inevitable as it provides a seamless and convenient experience for social media users. One challenge was that the desktop app was suitable for bulk creations yet is not as commonly seen within mobile. Finding a way to intuitively support this same functionality within mobile was a critical aspect in providing an ideal and consistent experience throughout.
+           With a goal to impose a general practice of embedding QR codes, designing a mobile app for TapQR was inevitable as it provides a seamless and convenient experience for social media users. One challenge was that desktop was suitable for bulk creations yet is not as commonly seen within mobile. Finding a way to intuitively support this same functionality within mobile was a critical aspect in providing an ideal and consistent experience throughout.
          </p1>
          <div>
           <Image src={Tqrwireframe4} alt="wireframe-four" layout="responsive" objectFit="cover" priority="true"/>
@@ -179,9 +180,7 @@ export default function tapqr() {
          <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
           <Image src={Tqrdesktoponboard} alt="desktop-onboard" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience.
-         </p1>
+        
          <div className="my-5 px-12 py-7 md:px-32 md:py-14 lg:px-56 lg:py-20 bg-[#f4f4f4]">
           <Image src={Tqrdesktopcreate} alt="desktop-create" layout="responsive" objectFit="cover" priority="true"/>
          </div>
@@ -215,8 +214,14 @@ export default function tapqr() {
                <Image src={Tqrmobilecreate} alt="mobile-create" layout="responsive" objectFit="cover" priority="true"/>
              </div>
          </div>
-         <div className="my-20">
+         <div className="my-5">
           <Image src={Tqrmobile1} alt="mobile-cover" layout="responsive" objectFit="cover" priority="true"/>
+         </div>
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           As much as we are aware of the common benefits of a dark mode, opting for this was merely a natural decision in which it is especially favoured in the world of Web3. In hopes of resonating with other Solana dApps and Phantom itself, it was a fitting design element that would be a significant form of expression in building trust with our audience.<br/><br/>In developing a design system, a vibrant green was chosen as a primary brand colour as it is associated with energy and excitement, which we invariably wanted to portray. With a focus on maintaining high contrast for accessibility, a clean and simple typeface of Inter was used across the platform with appropriate hierarchy and combinations for every use case. In addition to simplicity, we wanted to ensure a welcoming and trustworthy atmosphere in many ways, for instance through the tone of voice in copy, rounded components, use of colour and friendly iconography.
+         </p1>
+         <div className="mt-5 mb-40">
+          <Image src={Tqrdesignsystem} alt="design-system" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            08 / REFLECTION

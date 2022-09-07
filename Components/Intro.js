@@ -27,8 +27,8 @@ function Intro() {
             </ul>
              
          </div>
-            <p1 className="font-normal text-4xl lg:text-5xl text-left pl-5 md:pl-4 pt-10 md:pt-24 md:w-5/6 lg:w-9/12">
-              Hi, I'm Grace, a product designer who finds pure joy and purpose in crafting valuable experiences.<br/><br/>Currently designing for startups under Tario Ventures by day, and exploring front end by night—with an endless drive to learn about bridging the gap.
+            <p1 className="font-normal text-3xl md:text-4xl text-left pl-5 md:pl-4 pt-10 md:pt-24 md:w-5/6 lg:w-8/12">
+              Hi, I'm Grace, product designer who finds pure joy and purpose in crafting valuable experiences.<br/><br/>I'm currently designing at Tario Ventures by day, and exploring front end by night—with an endless drive to learn more about bridging the gap.
             </p1>
       </div>
     </div>
