@@ -42,8 +42,8 @@ export default function About() {
                  <div className="flex flex-col justify-between">
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Lead UI/UX Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
-                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Tario Ventures Group</p1>
-                     <p1 className="font-normal text-lg lg:text-xl text-right text-zinc-400">Jan 2022 – Present</p1>
+                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Tario Ventures Inc.</p1>
+                     <p1 className="font-normal text-lg lg:text-xl text-right text-zinc-400">Jan 2022 – Sep 2022</p1>
                    </div>
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">UI/UX Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
