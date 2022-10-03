@@ -5,6 +5,8 @@ import Projects from "../lib/data";
 import Projectheader from "../Components/projectheader";
 import Image from "next/image";
 import Tqrhero from "../public/images/One.png";
+import Tqrstats1 from "../public/images/tqr-stats1.png";
+import Tqrscreens from "../public/images/tqr-screens.png";
 import Tqrresearch1 from "../public/images/tqr-research1.png";
 import Tqrresearch2 from "../public/images/tqr-research2.png";
 import Tqrideation from "../public/images/tqr-ideation.png";
@@ -79,15 +81,29 @@ export default function tapqr() {
            03 / RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
-           The research process began with an approach from a design perspective, in terms of how the product may take form and function in the hands of our users.
+           We began with preliminary research around influencer marketing to evaluate current demand and trends for validation and ideation.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           We were building a product targeting social media users and human-generated content, and so it was important to run a competitive analysis with many products serving a similar purpose. TapQR would not only be a QR code generator, but more focussed on the integration with social media posts, therefore it was important to see what platforms are successfully used in accordance with content creation.<br/><br/><span><a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Canva</a></span>, <span><a href="https://www.picsart.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Picsart</a></span> and <span><a href="https://www.instasize.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Instasize</a></span> to name a few, are popularly used in content creation, and drawing inspiration from them allowed us to design a product that was new in functionality yet still familiar in usability. We focused on determining what flows and experiences were working well in accomplishing main tasks, and what could be simplified or improved upon.
+           As the project was assigned with a set idea and solution to some already known problems within influencer marketing today, minimal time was spent gathering relevant insights that would validate the idea from a product design point of view. These findings promptly revealed great potential of the product entering the market in which the influencer marketing industry was vastly growing with proven statistics.
          </p1>
          <div>
-          <Image src={Tqrresearch1} alt="research-one" layout="responsive" objectFit="cover" priority="true"/>
+          <Image src={Tqrstats1} alt="stats-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           There was great potential for the product to gain traction knowing that consumers are in favour of influencer-generated content, along with Shopify presenting steady growth with 1.75 million merchants today. This was relevant from a business perspective, as TapQR was being developed to live in conjunction with Shopify merchants, as a new way for collaborating with potential creators. Ultimately, we were able to determine that our target audience would be nano to micro influencers that usually engage with smaller businesses being first-time entrepreneurs, in which influencer marketing is highly essential.
+         </p1>
+         <p1 className="text-base text-left text-zinc-400">Source: <a href="https://grin.co/blog/influencer-marketing-statistics/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">Grin</a><span>, </span><a href="https://www.edesk.com/blog/shopify-statistics/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline text-base hover:text-black">eDesk</a></p1>
+         <p1 className="font-normal text-3xl lg:text-4xl text-left mt-40 mb-5 md:w-5/6 lg:w-4/6">
+           Moving forward, we conducted research that will drive ideation from a design approach, in terms of how the product may take form and function in the hands of our users.
+         </p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           As we were building a product targeting social media users and human-generated content, it was critical to run a competitive analysis with many products serving a similar purpose to see what platforms are successfully used. Analysing and drawing inspiration from core elements within top ranking apps in the App Store, allowed us to envision a product that was new in functionality yet still familiar in usability.<br/><br/>While there are no competitors that directly serve the same intricate purpose as TapQR envisions, we were able to see the general landscape of where the product would live in accordance with content creation and QR code generation. <span><a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Canva</a></span>, <span><a href="https://www.unfold.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Unfold</a></span> and <span><a href="https://www.picsart.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Picsart</a></span> to name a few are popularly used in content creation, with a prominent feature being the photo editor that focuses on quick and creative customization.<br/><br/>Additionally, we also looked at various QR code generators and decided to further analyse <span><a href="https://www.qr-code-generator.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">QR Code Generator powered by Bitly</a></span> as there was an ease in performing the main tasks in simple creation and managing QR codes within a dashboard view. Rather than focusing on specific features in this competitive analysis, we wanted to gain insight on successful visual structures and main task flows.
+         </p1>
+         <div>
+          <Image src={Tqrscreens} alt="competitors" layout="responsive" objectFit="cover" priority="true"/>
+         </div>
+         
+         <p1 className="font-normal text-3xl lg:text-4xl text-left mt-40 mb-5 md:w-5/6 lg:w-4/6">
            Knowing the foundations of blockchain technology and how a world of dApps emerged was a critical area of research in designing for Web3.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
