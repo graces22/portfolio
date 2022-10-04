@@ -7,7 +7,7 @@ import Image from "next/image";
 import Tqrhero from "../public/images/One.png";
 import Tqrstats1 from "../public/images/tqr-stats1.png";
 import Tqrscreens from "../public/images/tqr-screens.png";
-import Tqrresearch1 from "../public/images/tqr-research1.png";
+import Tqrprinciples from "../public/images/tqr-principles.png";
 import Tqrresearch2 from "../public/images/tqr-research2.png";
 import Tqrideation from "../public/images/tqr-ideation.png";
 import Tqrflow1 from "../public/images/tqr-flow1.png";
@@ -86,7 +86,7 @@ export default function tapqr() {
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
            As the project was assigned with a set idea and solution to some already known problems within influencer marketing today, minimal time was spent gathering relevant insights that would validate the idea from a product design point of view. These findings promptly revealed great potential of the product entering the market in which the influencer marketing industry was vastly growing with proven statistics.
          </p1>
-         <div>
+         <div className="my-5">
           <Image src={Tqrstats1} alt="stats-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -97,7 +97,7 @@ export default function tapqr() {
            Moving forward, we conducted research that will drive ideation from a design approach, in terms of how the product may take form and function in the hands of our users.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As we were building a product targeting social media users and human-generated content, it was critical to run a competitive analysis with many products serving a similar purpose to see what platforms are successfully used. Analysing and drawing inspiration from core elements within top ranking apps in the App Store, allowed us to envision a product that was new in functionality yet still familiar in usability.<br/><br/>While there are no competitors that directly serve the same intricate purpose as TapQR envisions, we were able to see the general landscape of where the product would live in accordance with content creation and QR code generation. <span><a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Canva</a></span>, <span><a href="https://www.unfold.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Unfold</a></span> and <span><a href="https://www.picsart.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Picsart</a></span> to name a few are popularly used in content creation, with a prominent feature being the photo editor that focuses on quick and creative customization.<br/><br/>Additionally, we also looked at various QR code generators and decided to further analyse <span><a href="https://www.qr-code-generator.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">QR Code Generator powered by Bitly</a></span> as there was an ease in performing the main tasks in simple creation and managing QR codes within a dashboard view. Rather than focusing on specific features in this competitive analysis, we wanted to gain insight on successful visual structures and main task flows.
+           As we were building a product for social media users, it was critical to run a competitive analysis on top ranking content creation apps in the App Store, allowing us to envision a product that was new in functionality yet still familiar in usability. While there are no competitors that directly serve the same intricate purpose as TapQR, we were able to see the general landscape of where the product would live in accordance with content creation and QR code generation. <span><a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Canva</a></span>, <span><a href="https://www.unfold.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Unfold</a></span> and <span><a href="https://www.picsart.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">Picsart</a></span> to name a few are popularly used in content creation, with a prominent feature being the photo editor that focuses on quick and creative customization.<br/><br/>Additionally, we also looked at various QR code generators and decided to further analyse <span><a href="https://www.qr-code-generator.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer underline">QR Code Generator powered by Bitly</a></span> as there was an ease in performing the main tasks in simple creation and managing QR codes within a dashboard view. Rather than focusing on specific features in this competitive analysis, we wanted to gain insight on successful visual structures and main task flows to inform our design decisions.
          </p1>
          <div>
           <Image src={Tqrscreens} alt="competitors" layout="responsive" objectFit="cover" priority="true"/>
@@ -107,9 +107,19 @@ export default function tapqr() {
            Knowing the foundations of blockchain technology and how a world of dApps emerged was a critical area of research in designing for Web3.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           As a sole designer on the team and being completely new to blockchain, crypto and Web3, learning more about this growing ecosystem was essential even before diving into ideation for design. Through relative research and experiencing Solana first-hand, it was truly fascinating in discovering what the technology holds for futures of the Internet.<br/><br/>During what felt like going down a rabbit hole, an amazing article was able to interrupt and enlighten a hefty thought process. In addition, analyzing current dApps was crucial, as we wanted to identify what users may deem complicated, and what was working well in terms of an overall experience.<br/><br/>Upon gaining a better understanding, gathering some HMWs allowed us to ideate on how we want the product to best serve our users:
+           As a sole designer on the team and being completely new to blockchain, crypto and Web3, learning more about this growing ecosystem was essential even before diving into ideation for design. Through relative research and experiencing Solana first-hand, it was truly fascinating in discovering what the technology holds for futures of the Internet.<br/><br/>During what felt like going down a rabbit hole, an amazing article was able to interrupt and enlighten a hefty thought process. In addition, analyzing current dApps was crucial, as we wanted to identify what users may deem complicated, and what was working well in terms of an overall experience. At a higher level, some key takeaways and principles in designing for Web3 are:
          </p1>
-         <div className="flex flex-row mt-5 mb-20 ">
+         <div className="my-5">
+          <Image src={Tqrprinciples} alt="principles" layout="responsive" objectFit="cover" priority="true"/>
+         </div>
+
+         <div className="my-5">
+          <Image src={Tqrresearch2} alt="research-two" layout="responsive" objectFit="cover" priority="true"/>
+         </div>
+         <p1 className="font-normal text-lg lg:text-xl text-left mb-5 md:w-5/6 lg:w-4/6">
+           Upon research, refining the product goals through determining HMWs allowed us to ideate on how to deliver an experience that will best serve our users:
+         </p1>
+         <div className="flex flex-row mt-5 mb-40 ">
          <div className="pr-4 lg:pr-6">
            <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
          </div>
@@ -118,9 +128,6 @@ export default function tapqr() {
          </p1>
          </div>
              
-         <div className="mb-20">
-          <Image src={Tqrresearch2} alt="research-two" layout="responsive" objectFit="cover" priority="true"/>
-         </div>
          <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            04 / IDEATION
          </p1>
@@ -128,7 +135,7 @@ export default function tapqr() {
            With greater insight, we began narrowing our focus to determine features that would deliver a clear value and purpose.
          </p1>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           Along with designing the process of stamping a post with QR codes, we also wanted to focus on the overall experience of what the product would provide. This encompasses an aspect of community in which users can freely view details of top performing TapQR along with their respective creators, as well as having access to collaborate with brands.<br/><br/>We also sketched out potential flows of how a user can easily stamp their content, and determined that following a familiar pattern used in social media content generators would be critical to overcome any learning curves. This allows users to experience a simple flow with a powerful outcome, in which the process can be seen as adding a commonly used “sticker” overlaid on a post, while simply entering a destination URL.
+           Along with designing the process of stamping a post with QR codes, we also wanted to focus on the overall experience of what the product would provide. This encompasses an aspect of community in which users can freely view details of top performing TapQR along with their respective creators, as well as having access to collaborate with brands.<br/><br/>Reflecting on research, I sketched out potential flows of how users can easily complete the main task, and determined that following a familiar pattern used in social media content generators would be most approachable. This allows users to experience a simple flow with a powerful outcome, in which the process can be seen as adding a commonly used “sticker” overlaid on a post, while simply entering a destination URL.
          </p1>
          <div className="mb-20">
           <Image src={Tqrideation} alt="ideation" layout="responsive" objectFit="cover" priority="true"/>
@@ -146,7 +153,7 @@ export default function tapqr() {
           <Image src={Tqrflow1} alt="flow-one" layout="responsive" objectFit="cover" priority="true"/>
          </div>
          <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
-           While the onboarding flow focuses on simplicity and ease to get as many users on and going, the key flows for creating, editing and downloading a TapQR relies on familiarity, in which we aimed to minimize the learning curve in using this product. A step-by-step process that follows the commonalities of photo editors as well as QR code generators helped visualize key screens and an overall intuitive experience.<br/><br/>A significant task to overcome in this flow would be the process of confirming the transaction through their Phantom wallet. To minimize friction, it is left as a last task for completion, and has been treated in a familiar method of payment seen in ecommerce today, in which it is informative enough yet not overwhelming.
+           While the onboarding flow focuses on simplicity and ease to get as many users on and going, the flow for creating, editing and downloading a TapQR relies on familiarity, in which we aimed to minimize the learning curve in using this product. A step-by-step process that follows the commonalities of photo editors as well as QR code generators helped visualize key screens and an overall intuitive experience.<br/><br/>A significant area to overcome would be the process of confirming transactions through their Phantom wallet. To minimize friction, it is left as a last task for completion, and has been treated in a familiar method of payment seen in ecommerce today, in which it is informative enough yet not overwhelming.
          </p1>
          <div className="mt-5 mb-20">
           <Image src={Tqrflow2} alt="flow-two" layout="responsive" objectFit="cover" priority="true"/>
