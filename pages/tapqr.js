@@ -7,6 +7,7 @@ import Image from "next/image";
 import Tqrhero from "../public/images/One.png";
 import Tqrstats1 from "../public/images/tqr-stats1.png";
 import Tqrscreens from "../public/images/tqr-screens.png";
+import Tqrusers from "../public/images/tqr-users.png";
 import Tqrprinciples from "../public/images/tqr-principles.png";
 import Tqrresearch2 from "../public/images/tqr-research2.png";
 import Tqrideation from "../public/images/tqr-ideation.png";
@@ -116,7 +117,16 @@ export default function tapqr() {
          <div className="my-5">
           <Image src={Tqrresearch2} alt="research-two" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-normal text-lg lg:text-xl text-left mb-5 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal text-3xl lg:text-4xl text-left mt-40 mb-5 md:w-5/6 lg:w-4/6">
+           Taking what we have learned, we dived into another critical area of user research to empathize with our target users.
+         </p1>
+         <p1 className="font-normal text-lg lg:text-xl text-left my-5 md:w-5/6 lg:w-4/6">
+           While we were working with a potential idea of stamping posts with QR codes, the research goal was to learn more about their current experience, pain points and expectations for TapQR in order to build a product that truly met their needs. By working with an internal brand being Rockwell Razors, interviewing 3 influencers that the brand was collaborating with allowed us to collect insights on key areas related to influencer marketing as well as topics concerning TapQR:
+         </p1>
+         <div className="my-5">
+          <Image src={Tqrusers} alt="user-research" layout="responsive" objectFit="cover" priority="true"/>
+         </div>
+         <p1 className="font-normal text-lg lg:text-xl text-left mt-10 mb-5 md:w-5/6 lg:w-4/6">
            Upon research, refining the product goals through determining HMWs allowed us to ideate on how to deliver an experience that will best serve our users:
          </p1>
          <div className="flex flex-row mt-5 mb-40 ">
@@ -124,7 +134,7 @@ export default function tapqr() {
            <div className="h-full border-l-[10px] lg:border-l-[12px] border-lime-100 border-solid"></div>
          </div>
          <p1 className="font-normal text-xl lg:text-2xl text-left text-zinc-400 md:w-5/6 lg:w-4/6">
-           How might we design a product that is familiar enough to engage social media users in valuing the concept of stamping their content with unique QR codes?<br/><br/>How might we build an experience that is easy to adapt and informative enough, yet not overly complex that might bore or potentially scare users who are new to concepts of blockchain technology?<br/><br/>How might we improve the overall experience for long-term users, while creating a sense of motivation, confidence and belonging?
+           How might we design a product that is familiar enough to engage social media users in valuing the concept of stamping their content with unique QR codes?<br/><br/>How might we build an experience that is easy to adopt and informative enough, yet not overly complex that might bore or potentially scare users who are new to concepts of blockchain technology?<br/><br/>How might we improve the overall experience for long-term users, while creating a sense of motivation, inspiration and belonging?
          </p1>
          </div>
              
