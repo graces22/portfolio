@@ -49,7 +49,7 @@ export default function beautyfiles() {
          <div className="mb-20">
           <Image src={Bfhero} alt="solution" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -61,14 +61,14 @@ export default function beautyfiles() {
        </div>
       </div>
       <div className="w-full px-0 md:px-3 lg:px-5 py-10 lg:py-16 my-10 lg:my-20 bg-lime-50">
-        <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
+        <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
            THE DESIGN CHALLENGE
         </p1>
         <h1 className="text-3xl md:text-5xl lg:text-6xl text-left my-2 md:my-5 mx-5 md:mx-3 md:w-5/6 lg:w-4/6 text-black">How might we enhance SalonEverywhere to increase customer demand through providing fundamental value in growing their business in unconventional ways?</h1>
       </div>
       <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 lg:mt-20">
        <div className="flex flex-col md:mx-3 mx-5 mt-10 md:mt-20">
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
            02 / THE SOLUTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -80,7 +80,7 @@ export default function beautyfiles() {
          <div className="my-5">
           <Image src={Bfintro} alt="mockup" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
            03 / PRELIMINARY RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -132,7 +132,7 @@ export default function beautyfiles() {
          </p1>
         
         
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
            04 / USER RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -197,7 +197,7 @@ export default function beautyfiles() {
           <Image src={Clientpersona} alt="client-persona" layout="responsive" objectFit="cover"/>
          </div>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
            05 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -209,7 +209,7 @@ export default function beautyfiles() {
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Bfideation} alt="Ideation" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            06 / USER FLOWS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -221,7 +221,7 @@ export default function beautyfiles() {
          <div className="mt-5 mb-20">
           <Image src={Bfflowmap} alt="flowmap" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            07 / WIREFRAMES
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -236,7 +236,7 @@ export default function beautyfiles() {
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Wireframe2} alt="wireframes" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            08 / FEEDBACK AND ITERATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -248,7 +248,7 @@ export default function beautyfiles() {
          <div>
           <Image src={Bfiterations} alt="iteration" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
            09 / HIGH-FIDELITY PROTOTYPES
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -266,7 +266,7 @@ export default function beautyfiles() {
          <div>
           <Image src={Bfhificlient} alt="hifi-client" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-40 mb-2 md:w-5/6 lg:w-4/6">
            10 / FINAL OUTCOME
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -339,7 +339,7 @@ export default function beautyfiles() {
                <Image src={Bfgif4} alt="gif4" layout="responsive" objectFit="cover"/>
              </div>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            11 / REFLECTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">

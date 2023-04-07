@@ -28,7 +28,7 @@ module.exports = {
       },
         
     fontFamily: {
-      'sans': ['Helvetica', 'Arial', 'sans-serif'],
+      'sans': ['Oracle-Regular', 'sans-serif'],
     }
   }
   },

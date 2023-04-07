@@ -12,12 +12,12 @@ function Footer() {
 
                 <div className="overflow-hidden h-24 md:h-28 lg:h-40 relative w-screen inline-block">
                 <div className="animate-marquee hover:pause inline-block whitespace-nowrap absolute">
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
-                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com · </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
+                  <a href="mailto:gracesong.dzn@gmail.com" className="font-normal text-7xl md:text-8xl lg:text-9xl text-center mb-1 lg:mb-5">gracesong.dzn@gmail.com ･ </a>
 
                 </div>
                 </div>
@@ -30,7 +30,7 @@ function Footer() {
                         Built using Next.js and Tailwind by Grace Song.
                       </p1>
                       <p1 className="font-regular text-sm md:text-base text-right w-1/6">
-                        © 2022
+                        © 2023
                       </p1>
                   </div>
            </div>

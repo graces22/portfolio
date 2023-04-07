@@ -46,8 +46,8 @@ const Projectheader = (props) => {
                <div className="pb-4">
                  <div className="w-full border-t border-black border-dotted"></div>
                </div>
-                 <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
-                    00 — INTRODUCTION
+                 <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+                    00 / INTRODUCTION
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
                    {description}

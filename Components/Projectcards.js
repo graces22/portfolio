@@ -23,7 +23,7 @@ function Projectcards() {
                     <p className="flex mt-0 text-left text-lg lg:text-xl break-normal">Crafting a seamless experience to leverage QR codes, built on the Solana blockchain.</p>
                    </div>
                   <div className="mt-14 md:mt-0 space-y-4">
-                   <p className="font-['Maison_Neue'] text-xs md:text-sm text-left">DESKTOP WEB · MOBILE APP · CASE STUDY</p>
+                   <p className="font-normal text-xs md:text-sm text-left tracking-wider">DESKTOP WEB · MOBILE APP · CASE STUDY</p>
                       <div className="w-full border-t border-black border-dotted"></div>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ function Projectcards() {
                     <p className="flex mt-0 text-left text-lg lg:text-xl break-normal">Helping beauty professionals better engage clients within a new, digital space.</p>
                    </div>
                   <div className="mt-14 md:mt-0 space-y-4">
-                   <p className="font-['Maison_Neue'] text-xs md:text-sm text-left">MOBILE APP · CASE STUDY</p>
+                   <p className="font-normal text-xs md:text-sm text-left tracking-wider">MOBILE APP · CASE STUDY</p>
                       <div className="w-full border-t border-black border-dotted"></div>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ function Projectcards() {
                     <p className="flex mt-0 text-left text-lg lg:text-xl break-normal">Redesigning a digital platform for simplicity, exclusively for beauty professionals.</p>
                    </div>
                   <div className="mt-14 md:mt-0 space-y-4">
-                   <p className="font-['Maison_Neue'] text-xs md:text-sm text-left">REDESIGN · RESPONSIVE WEB · CASE STUDY</p>
+                   <p className="font-normal text-xs md:text-sm text-left tracking-wider">REDESIGN · RESPONSIVE WEB · CASE STUDY</p>
                       <div className="w-full border-t border-black border-dotted"></div>
                   </div>
                 </div>

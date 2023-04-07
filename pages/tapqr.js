@@ -47,7 +47,7 @@ export default function tapqr() {
          <div className="mb-20">
           <Image src={Tqrhero} alt="solution" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -59,14 +59,14 @@ export default function tapqr() {
        </div>
       </div>
       <div className="w-full px-0 md:px-3 lg:px-5 py-10 lg:py-16 my-10 lg:my-20 bg-lime-50">
-        <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
+        <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
           THE DESIGN CHALLENGE
         </p1>
         <h1 className="text-3xl md:text-5xl lg:text-6xl text-left my-2 md:my-5 mx-5 md:mx-3 md:w-5/6 lg:w-4/6 text-black">How might we build a product for influencer marketing that grants user authority, while encouraging a new practice of easily tapping, stamping and tracking QR codes that are embedded in their long-lived social media posts?</h1>
       </div>
       <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 lg:mt-20">
        <div className="flex flex-col md:mx-3 mx-5 mt-10 md:mt-20">
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
            02 / THE SOLUTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -78,7 +78,7 @@ export default function tapqr() {
          <div className="mt-5 mb-20">
           <Image src={Tqrsolution} alt="solution" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            03 / RESEARCH
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -138,7 +138,7 @@ export default function tapqr() {
          </p1>
          </div>
              
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            04 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -150,7 +150,7 @@ export default function tapqr() {
          <div className="mb-20">
           <Image src={Tqrideation} alt="ideation" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            05 / USER FLOWS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -168,7 +168,7 @@ export default function tapqr() {
          <div className="mt-5 mb-20">
           <Image src={Tqrflow2} alt="flow-two" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            06 / WIREFRAMES
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -198,7 +198,7 @@ export default function tapqr() {
          <div>
           <Image src={Tqrwireframe4} alt="wireframe-four" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            07 / FINAL OUTCOME
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -256,7 +256,7 @@ export default function tapqr() {
          <div className="mt-5 mb-40">
           <Image src={Tqrdesignsystem} alt="design-system" layout="responsive" objectFit="cover" priority="true"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            08 / REFLECTION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">

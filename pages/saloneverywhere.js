@@ -35,7 +35,7 @@ export default function saloneverywhere() {
          <div className="mb-20">
           <Image src={Sehero} alt="solution" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            01 / THE PROBLEM
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -47,14 +47,14 @@ export default function saloneverywhere() {
        </div>
       </div>
       <div className="w-full px-0 md:px-3 lg:px-5 py-10 lg:py-16 my-10 lg:my-20 bg-lime-50">
-        <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
+        <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2  mx-5 md:mx-3 md:w-5/6 lg:w-4/6">
           THE DESIGN CHALLENGE
         </p1>
         <h1 className="text-3xl md:text-5xl lg:text-6xl text-left my-2 md:my-5 mx-5 md:mx-3 md:w-5/6 lg:w-4/6 text-black">How might we engage new and existing users through providing a foolproof platform that meets their needs, with a visual tone that speaks to the beauty industry?</h1>
       </div>
       <div className="flex justify-between text-center mx-0 md:mx-3 lg:mx-5 mt-10 lg:mt-20">
        <div className="flex flex-col md:mx-3 mx-5 mt-10 md:mt-20">
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-10 mb-2 md:w-5/6 lg:w-4/6">
            02 / ANALYSIS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -72,7 +72,7 @@ export default function saloneverywhere() {
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Bizheader} alt="biz-profile" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            03 / IDEATION
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -96,7 +96,7 @@ export default function saloneverywhere() {
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Seflowmap} alt="flowmap" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            04 / PROPOSED SOLUTIONS
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -108,7 +108,7 @@ export default function saloneverywhere() {
          <div className="my-5 mb-10 md:mb-20">
           <Image src={Secomponents} alt="designsystem" layout="responsive" objectFit="cover"/>
          </div>
-         <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+         <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
            05 / FINAL OUTCOME
          </p1>
          <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -145,7 +145,7 @@ export default function saloneverywhere() {
            <div className="my-5 mb-10 md:mb-20">
             <Image src={Semodals} alt="modals" layout="responsive" objectFit="cover"/>
            </div>
-           <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
+           <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-20 mb-2 md:w-5/6 lg:w-4/6">
              06 / REFLECTION
            </p1>
            <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">

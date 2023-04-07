@@ -24,7 +24,7 @@ export default function About() {
                <div className="pt-0 pb-4 md:pt-4">
                   <div className="w-full border-t border-black border-dotted"></div>
                </div>
-               <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
+               <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
                  00 / BRIEF SUMMARY
                </p1>
                <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
@@ -36,10 +36,15 @@ export default function About() {
                <div className="pt-6 pb-4">
                   <div className="w-full border-t border-black border-dotted"></div>
                </div>
-               <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
+               <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
                  01 / EXPERIENCE
                </p1>
                  <div className="flex flex-col justify-between">
+                   <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">UX Designer</p1> 
+                   <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
+                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Canada Life</p1>
+                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Mar 2023 ­– Present</p1>
+                   </div>
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Lead UI/UX Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
                      <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Tario Ventures Inc.</p1>
@@ -53,13 +58,9 @@ export default function About() {
                    <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Freelance Designer</p1> 
                    <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
                      <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Toronto, ON</p1>
-                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Aug 2019 – Nov 2020</p1>
+                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Aug 2019 – Mar 2023</p1>
                    </div>
-                   <p1 className="font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">Design Intern</p1> 
-                   <div className="flex flex-row justify-between md:w-5/6 lg:w-4/6 mt-2 mb-10"> 
-                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Parmida LED Technologies</p1>
-                     <p1 className="font-normal text-lg lg:text-xl text-left text-zinc-400">Mar 2018 ­– Jun 2018</p1>
-                   </div>
+                
                    <a href="https://drive.google.com/file/d/169iDF_zXzqZ84h4SLe15ZEvSK23O4DO4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex flex-row items-center font-normal text-3xl lg:text-4xl text-left mt-8 mb-0 md:w-5/6 lg:w-4/6">View Resume <ArrowRightIcon className="h-8 w-8 -rotate-45 ml-2"/></a>
                   </div>
                  <div className="pt-10 pb-4">
@@ -107,7 +108,7 @@ export default function About() {
                 <div className="w-full border-t border-black border-dotted"></div>
               </div>
 
-                 <p1 className="font-['Maison_Neue'] text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
+                 <p1 className="font-normal tracking-wider text-sm lg:text-base text-left mt-32 mb-2 md:w-5/6 lg:w-4/6">
                     02 / SMALL FACTS
                  </p1>
                  <p1 className="font-normal text-3xl lg:text-4xl text-left my-5 md:w-5/6 lg:w-4/6">
