@@ -28,7 +28,7 @@ function Intro() {
              
          </div>
             <p1 className="font-normal text-3xl md:text-4xl text-left pl-5 md:pl-4 pt-10 md:pt-24 md:w-5/6 lg:w-8/12">
-              Hi! I'm Grace, a big, bright believer that life is better when designed.<br/><br/>With that said, I'm currently a UX Designer at Canada Life, designing experiences that empower Canadians to live life to the fullest.
+              Hi! I'm Grace, a strong believer that life is better when designed.<br/><br/>With that said, I'm currently a UX Designer at Canada Life, designing experiences that empower Canadians to live life to the fullest.
             </p1>
       </div>
     </div>

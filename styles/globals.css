@@ -4,6 +4,7 @@
 @layer base {
   html {
     @apply scroll-smooth;
+    @apply antialiased;
   }
 }
 
@@ -12,9 +13,6 @@
     animation-play-state: paused;
   }
 }
-
-@import url(//db.onlinewebfonts.com/c/63467b9cbd4a4d7eafb5e64946ecaa18?family=Maison+Neue);
-@font-face {font-family: "Maison Neue"; src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot"); src: url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.woff") format("woff"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/63467b9cbd4a4d7eafb5e64946ecaa18.svg#Maison Neue") format("svg"); }
 
 @font-face {
   font-family: "Oracle-Regular";

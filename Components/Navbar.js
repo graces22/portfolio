@@ -6,7 +6,7 @@ import {MenuIcon, XIcon} from "@heroicons/react/outline";
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     return (
-        <Disclosure as="nav" className="sticky w-full top-0 z-20 hover:bg-lime-50 active:bg-lime-50">
+        <Disclosure as="nav" className="sticky w-full top-0 z-20 bg-white">
             {({open}) => (
                 <>
                    <div className="min-w-7xl mx-auto px-2 sm:px-3 lg:pl-7 md:pr-4 lg:pr-6 active:bg-lime-50">
@@ -28,7 +28,7 @@ export default function Navbar() {
                              <ul>
                                <li>
                                   <Link href="/">
-                                     <a className="font-regular text-base cursor-pointer">Grace Song</a>
+                                     <a className="font-regular text-base cursor-pointer">GRACE SONG</a>
                                   </Link>
                                </li>
                              </ul>
@@ -61,8 +61,10 @@ export default function Navbar() {
                        </div>
 
                    </div>
-                   <Disclosure.Panel className="md:hidden bg-lime-50 h-screen w-screen">
-                     <div className="mx-2 py-8 space-y-1">
+                   
+                   <Disclosure.Panel className="md:hidden bg-white h-min m-5 rounded-2xl">
+                  
+                     <div className="mx-4 py-6 space-y-1">
                                      <Disclosure.Button>
                                      <ul>   
                                <li>

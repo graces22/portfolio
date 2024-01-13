@@ -26,7 +26,7 @@ module.exports = {
           '100%': { transform: 'translateY(-80%)' },
         },
       },
-        
+
     fontFamily: {
       'sans': ['Oracle-Regular', 'sans-serif'],
     }
